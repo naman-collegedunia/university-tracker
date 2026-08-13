@@ -1,0 +1,38 @@
+name: Daily University Website Monitor
+
+on:
+  schedule:
+    # Runs automatically every day at 8:00 AM UTC
+    - cron: '0 8 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub UI
+
+jobs:
+  check-universities:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 google-genai
+
+      - name: Run tracking script
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python tracker.py
+
+      - name: Save updated snapshot files to repository
+        run: |
+          git config --global user.name "University Tracker Bot"
+          git config --global user.email "bot@github.com"
+          git add snapshots.json updates_*.txt || true
+          git diff-index --quiet HEAD || git commit -m "Automated update check: $(date -u)"
+          git push
