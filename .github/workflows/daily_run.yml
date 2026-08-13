@@ -35,6 +35,9 @@ jobs:
         run: |
           git config --global user.name "University Tracker Bot"
           git config --global user.email "bot@github.com"
-          git add snapshots.json updates_*.txt || true
+          # This line pulls your recent edits before trying to push
+          git pull --rebase origin main
+          # This safely adds whatever new files exist, ignoring missing ones
+          git add .
           git diff-index --quiet HEAD || git commit -m "Automated update check: $(date -u)"
           git push
