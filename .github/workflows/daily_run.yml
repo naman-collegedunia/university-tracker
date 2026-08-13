@@ -2,9 +2,11 @@ name: Daily University Website Monitor
 
 on:
   schedule:
-    # Runs automatically every day at 8:00 AM UTC
     - cron: '0 8 * * *'
-  workflow_dispatch: # Allows manual trigger from GitHub UI
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   check-universities:
