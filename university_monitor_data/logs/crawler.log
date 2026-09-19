@@ -16423,3 +16423,398 @@ Traceback (most recent call last):
 google.genai.errors.ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}
 2026-09-18 14:01:41,938 | WARNING | Request failed: https://www.lmu.de/en/study/all-degrees-and-programs/international-full-time-students | 404 Client Error: Not Found for url: https://www.lmu.de/en/study/all-degrees-and-programs/international-full-time-students
 2026-09-18 14:01:42,790 | WARNING | Request failed: https://www.tu.berlin/en/studying/international-students | 404 Client Error: Not Found for url: https://www.tu.berlin/en/studying/international-students
+2026-09-19 12:26:41,204 | WARNING | Request failed: http://www.bristol.ac.uk/centenary | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/centenary
+2026-09-19 12:28:38,915 | WARNING | Request failed: https://www.bristol.ac.uk/x.html | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/x.html
+2026-09-19 12:28:39,077 | WARNING | Request failed: https://www.bristol.ac.uk/i.html | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/i.html
+2026-09-19 12:28:39,244 | WARNING | Request failed: https://www.bristol.ac.uk/v.html | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/v.html
+2026-09-19 12:28:39,405 | WARNING | Request failed: https://www.bristol.ac.uk/w.html | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/w.html
+2026-09-19 12:28:39,567 | WARNING | Request failed: https://www.bristol.ac.uk/l.html | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/l.html
+2026-09-19 12:28:39,735 | WARNING | Request failed: https://www.bristol.ac.uk/m.html | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/m.html
+2026-09-19 12:28:39,897 | WARNING | Request failed: https://www.bristol.ac.uk/d.html | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/d.html
+2026-09-19 12:28:40,061 | WARNING | Request failed: https://www.bristol.ac.uk/t.html | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/t.html
+2026-09-19 12:28:40,244 | WARNING | Request failed: https://www.bristol.ac.uk/b.html | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/b.html
+2026-09-19 12:28:40,403 | WARNING | Request failed: https://www.bristol.ac.uk/q.html | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/q.html
+2026-09-19 12:28:40,561 | WARNING | Request failed: https://www.bristol.ac.uk/0.html | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/0.html
+2026-09-19 12:28:40,723 | WARNING | Request failed: https://www.bristol.ac.uk/y.html | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/y.html
+2026-09-19 12:28:40,884 | WARNING | Request failed: https://www.bristol.ac.uk/full.html | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/full.html
+2026-09-19 12:28:41,047 | WARNING | Request failed: https://www.bristol.ac.uk/az-guide.html | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/az-guide.html
+2026-09-19 12:28:41,213 | WARNING | Request failed: https://www.bristol.ac.uk/g.html | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/g.html
+2026-09-19 12:28:41,371 | WARNING | Request failed: https://www.bristol.ac.uk/f.html | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/f.html
+2026-09-19 12:28:41,534 | WARNING | Request failed: https://www.bristol.ac.uk/u.html | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/u.html
+2026-09-19 12:28:41,693 | WARNING | Request failed: https://www.bristol.ac.uk/e.html | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/e.html
+2026-09-19 12:28:41,854 | WARNING | Request failed: https://www.bristol.ac.uk/s.html | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/s.html
+2026-09-19 12:28:42,013 | WARNING | Request failed: https://www.bristol.ac.uk/a.html | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/a.html
+2026-09-19 12:28:42,177 | WARNING | Request failed: https://www.bristol.ac.uk/p.html | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/p.html
+2026-09-19 12:28:42,337 | WARNING | Request failed: https://www.bristol.ac.uk/z.html | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/z.html
+2026-09-19 12:28:42,496 | WARNING | Request failed: https://www.bristol.ac.uk/j.html | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/j.html
+2026-09-19 12:28:42,659 | WARNING | Request failed: https://www.bristol.ac.uk/n.html | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/n.html
+2026-09-19 12:28:42,818 | WARNING | Request failed: https://www.bristol.ac.uk/k.html | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/k.html
+2026-09-19 12:28:42,980 | WARNING | Request failed: https://www.bristol.ac.uk/c.html | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/c.html
+2026-09-19 12:28:43,140 | WARNING | Request failed: https://www.bristol.ac.uk/h.html | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/h.html
+2026-09-19 12:28:43,302 | WARNING | Request failed: https://www.bristol.ac.uk/r.html | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/r.html
+2026-09-19 12:28:43,467 | WARNING | Request failed: https://www.bristol.ac.uk/o.html | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/o.html
+2026-09-19 12:29:27,276 | WARNING | Request failed: http://www.bristol.ac.uk/international/ug-study/erasmus | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/international/ug-study/erasmus
+2026-09-19 12:29:49,879 | WARNING | Request failed: http://www.bristol.ac.uk/romanticstudies | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-09-19 12:30:02,342 | WARNING | Request failed: http://www.bristol.ac.uk/medical-school/hippocrates | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/medical-school/hippocrates
+2026-09-19 12:30:02,868 | WARNING | Request failed: http://www.bristol.ac.uk/education/enterprise/docsum | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/education/expertiseandresources/dss/
+2026-09-19 12:31:10,371 | WARNING | Request failed: http://www.bristol.ac.uk/philosophy/department/centre | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/philosophy/department/centre
+2026-09-19 12:31:53,579 | WARNING | Request failed: http://www.bristol.ac.uk/ceas | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/spais/research/ceas/
+2026-09-19 12:32:06,977 | WARNING | Request failed: http://www.bristol.ac.uk/medievalcentre | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-09-19 12:32:09,721 | WARNING | Request failed: http://www.bristol.ac.uk/sraa/uk-student-recruitment | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/sraa/uk-student-recruitment
+2026-09-19 12:33:14,941 | WARNING | Request failed: http://www.bristol.ac.uk/bclrc | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/bclrc
+2026-09-19 12:34:49,253 | WARNING | Request failed: http://www.bristol.ac.uk/biology/research/transcriptomics | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/biology/research/transcriptomics
+2026-09-19 12:35:24,639 | WARNING | Request failed: http://www.bristol.ac.uk/music/CHOMBEC | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/music/CHOMBEC
+2026-09-19 12:35:24,966 | WARNING | Request failed: http://www.bristol.ac.uk/medical-school/research/biobank | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/medical-school/research/biobank
+2026-09-19 12:36:58,594 | WARNING | Request failed: http://www.bristol.ac.uk/public-relations/logo | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/communications-marketing/logo
+2026-09-19 12:37:09,748 | WARNING | Request failed: http://www.bristol.ac.uk/conferences-hospitality/film | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/venues/film-and-television/
+2026-09-19 12:37:12,211 | WARNING | Request failed: http://www.bristol.ac.uk/study/outreach/post-16/pathways | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/study/outreach/post-16/pathways
+2026-09-19 12:38:45,668 | INFO | AFC is enabled with max remote calls: 10.
+2026-09-19 12:38:45,668 | WARNING | Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+2026-09-19 12:38:45,986 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-09-19 12:38:45,987 | ERROR | University failed: University of Bristol
+Traceback (most recent call last):
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 1036, in run_tracker
+    analysis = analyze_change(
+               ^^^^^^^^^^^^^^^
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 859, in analyze_change
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/models.py", line 6270, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/models.py", line 4707, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1750, in request
+    response = self._request(http_request, http_options, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1537, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 371, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1514, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/errors.py", line 173, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/errors.py", line 202, in raise_error
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}
+2026-09-19 12:39:58,707 | WARNING | Request failed: https://equality.leeds.ac.uk/ | 403 Client Error: Forbidden for url: https://equality.leeds.ac.uk/
+2026-09-19 12:40:33,437 | WARNING | Request failed: https://linkto.leeds.ac.uk/ | 403 Client Error: Forbidden for url: https://linkto.leeds.ac.uk/
+2026-09-19 12:40:52,699 | WARNING | Request failed: https://mymedia.leeds.ac.uk/ | 404 Client Error: Not Found for url: https://mymedia.leeds.ac.uk:443/Mediasite
+2026-09-19 12:41:07,570 | WARNING | Request failed: https://sustainability.leeds.ac.uk/ | 403 Client Error: Forbidden for url: https://sustainability.leeds.ac.uk/
+2026-09-19 12:41:14,928 | WARNING | Request failed: https://sustainability.leeds.ac.uk/social-responsibility | 403 Client Error: Forbidden for url: https://sustainability.leeds.ac.uk/social-responsibility
+2026-09-19 12:42:34,274 | WARNING | Request failed: https://researchatleeds.leeds.ac.uk/ | 403 Client Error: Forbidden for url: https://researchatleeds.leeds.ac.uk/
+2026-09-19 12:43:19,290 | WARNING | Request failed: https://secretariat.leeds.ac.uk/corporate-governance/main-university-committees/council | 403 Client Error: Forbidden for url: https://secretariat.leeds.ac.uk/corporate-governance/main-university-committees/council
+2026-09-19 12:43:22,965 | WARNING | Request failed: https://secretariat.leeds.ac.uk/ | 403 Client Error: Forbidden for url: https://secretariat.leeds.ac.uk/
+2026-09-19 12:43:26,254 | WARNING | Request failed: http://www.leeds.ac.uk/secretariat/charter.html | 404 Client Error: Not Found for url: https://www.leeds.ac.uk:443/secretariat/charter.html
+2026-09-19 12:43:28,670 | WARNING | Request failed: https://sport.leeds.ac.uk/facilities/boat-house | 403 Client Error: Forbidden for url: https://sport.leeds.ac.uk/facilities/boat-house
+2026-09-19 12:43:30,467 | WARNING | Request failed: https://sport.leeds.ac.uk/active-campus | 403 Client Error: Forbidden for url: https://sport.leeds.ac.uk/active-campus
+2026-09-19 12:43:32,266 | WARNING | Request failed: https://sport.leeds.ac.uk/facilities/bodington-playing-fields | 403 Client Error: Forbidden for url: https://sport.leeds.ac.uk/facilities/bodington-playing-fields
+2026-09-19 12:43:32,376 | WARNING | Request failed: https://sport.leeds.ac.uk/the-edge | 403 Client Error: Forbidden for url: https://sport.leeds.ac.uk/the-edge
+2026-09-19 12:43:34,502 | WARNING | Request failed: https://sport.leeds.ac.uk/sport | 403 Client Error: Forbidden for url: https://sport.leeds.ac.uk/sport
+2026-09-19 12:43:34,615 | WARNING | Request failed: https://sport.leeds.ac.uk/facilities/weetwood | 403 Client Error: Forbidden for url: https://sport.leeds.ac.uk/facilities/weetwood
+2026-09-19 12:43:34,711 | WARNING | Request failed: https://sport.leeds.ac.uk/facilities/outdoors | 403 Client Error: Forbidden for url: https://sport.leeds.ac.uk/facilities/outdoors
+2026-09-19 12:48:11,025 | WARNING | Request failed: https://students.leeds.ac.uk/localtransport | 404 Client Error: Not Found for url: https://students.leeds.ac.uk/localtransport
+2026-09-19 12:48:20,956 | INFO | AFC is enabled with max remote calls: 10.
+2026-09-19 12:48:21,231 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-09-19 12:48:21,232 | ERROR | University failed: University of Leeds
+Traceback (most recent call last):
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 1036, in run_tracker
+    analysis = analyze_change(
+               ^^^^^^^^^^^^^^^
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 859, in analyze_change
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/models.py", line 6270, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/models.py", line 4707, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1750, in request
+    response = self._request(http_request, http_options, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1537, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 371, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1514, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/errors.py", line 173, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/errors.py", line 202, in raise_error
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}
+2026-09-19 12:54:22,074 | INFO | AFC is enabled with max remote calls: 10.
+2026-09-19 12:54:22,360 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-09-19 12:54:22,361 | ERROR | University failed: University of York
+Traceback (most recent call last):
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 1036, in run_tracker
+    analysis = analyze_change(
+               ^^^^^^^^^^^^^^^
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 859, in analyze_change
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/models.py", line 6270, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/models.py", line 4707, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1750, in request
+    response = self._request(http_request, http_options, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1537, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 371, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1514, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/errors.py", line 173, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/errors.py", line 202, in raise_error
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}
+2026-09-19 13:02:29,514 | INFO | AFC is enabled with max remote calls: 10.
+2026-09-19 13:02:29,812 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-09-19 13:02:29,813 | ERROR | University failed: University of Exeter
+Traceback (most recent call last):
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 1036, in run_tracker
+    analysis = analyze_change(
+               ^^^^^^^^^^^^^^^
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 859, in analyze_change
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/models.py", line 6270, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/models.py", line 4707, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1750, in request
+    response = self._request(http_request, http_options, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1537, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 371, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1514, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/errors.py", line 173, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/errors.py", line 202, in raise_error
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}
+2026-09-19 13:02:30,615 | WARNING | Request failed: https://warwick.ac.uk/study/international/country/india | 404 Client Error:  for url: https://warwick.ac.uk/study/international/country/india/
+2026-09-19 13:03:38,529 | WARNING | Request failed: https://www.ucl.ac.uk/global/regional-focus/ucl-and-india | 404 Client Error: Not Found for url: https://www.ucl.ac.uk/engage/global/regional-focus/ucl-and-india
+2026-09-19 13:04:30,090 | WARNING | Request failed: https://moodle.ucl.ac.uk/ | 403 Client Error: Forbidden for url: https://moodle.ucl.ac.uk/
+2026-09-19 13:06:25,529 | WARNING | Request failed: https://www.ucl.ac.uk/isd/services/communicate-collaborate/remote-working-tools-and-best-practice | 404 Client Error: Not Found for url: https://www.ucl.ac.uk/isd/services/communicate-collaborate/remote-working-tools-and-best-practice
+2026-09-19 13:07:46,129 | WARNING | Request failed: https://myfreports.ucl.ac.uk/Axiom/home/login?ReturnUrl=%2faxiom%2fforms%2fhome | HTTPSConnectionPool(host='myfreports.ucl.ac.uk', port=443): Max retries exceeded with url: /Axiom/home/login?ReturnUrl=%2Faxiom%2Fforms%2Fhome (Caused by ConnectTimeoutError(<HTTPSConnection(host='myfreports.ucl.ac.uk', port=443) at 0x7fa105354f10>, 'Connection to myfreports.ucl.ac.uk timed out. (connect timeout=30)'))
+2026-09-19 13:08:46,888 | WARNING | Request failed: http://www.ucl.ac.uk/myhr | HTTPSConnectionPool(host='ebs-prod.ucl.ac.uk', port=443): Max retries exceeded with url: /OA_HTML/AppsLogin (Caused by ConnectTimeoutError(<HTTPSConnection(host='ebs-prod.ucl.ac.uk', port=443) at 0x7fa105d019d0>, 'Connection to ebs-prod.ucl.ac.uk timed out. (connect timeout=30)'))
+2026-09-19 13:11:19,333 | WARNING | Request failed: http://www.ucl.ac.uk/estates/our-services/room-bookings | HTTPConnectionPool(host='www.ucl.ac.uk', port=80): Read timed out. (read timeout=30)
+2026-09-19 13:11:49,664 | WARNING | Request failed: http://www.ucl.ac.uk/estates/customer-helpdesk | HTTPConnectionPool(host='www.ucl.ac.uk', port=80): Read timed out. (read timeout=30)
+2026-09-19 13:12:21,904 | WARNING | Request failed: http://www.ucl.ac.uk/library | HTTPConnectionPool(host='www.ucl.ac.uk', port=80): Read timed out. (read timeout=30)
+2026-09-19 13:12:52,080 | WARNING | Request failed: http://www.ucl.ac.uk/isd/services/websites-apps-databases | HTTPConnectionPool(host='www.ucl.ac.uk', port=80): Read timed out. (read timeout=30)
+2026-09-19 13:13:27,712 | WARNING | Request failed: http://www.ucl.ac.uk/isd | HTTPConnectionPool(host='www.ucl.ac.uk', port=80): Read timed out. (read timeout=30)
+2026-09-19 13:15:21,478 | WARNING | Request failed: http://www.ucl.ac.uk/iss/immigration-visa/advice | 404 Client Error: Not Found for url: https://www.ucl.ac.uk/study/current-students/immigration-visas/tier-4-visas/tier-4-immigration-advice
+2026-09-19 13:15:41,017 | WARNING | Request failed: https://www.ucl.ac.uk/alumni/donations-gbp-single?PROJECT_CODE=U00003 | 404 Client Error: Not Found for url: https://www.ucl.ac.uk/alumni/donations-gbp-single?PROJECT_CODE=U00003
+2026-09-19 13:15:43,480 | WARNING | Request failed: https://www.ucl.ac.uk/contact-list | 404 Client Error: Not Found for url: https://www.ucl.ac.uk/contact-list
+2026-09-19 13:15:44,490 | WARNING | Request failed: https://www.ucl.ac.uk/disclaimer | 502 Server Error: Bad Gateway for url: https://www.ucl.ac.uk/disclaimer
+2026-09-19 13:16:49,877 | WARNING | Request failed: http://ucl.ac.uk/widening-participation/learners/year-12-and-13/ucl-study-prep | 403 Client Error: Forbidden for url: https://www.ucl.ac.uk/engage/archive-ucl-study-prep
+2026-09-19 13:19:33,288 | WARNING | Request failed: https://www.ucl.ac.uk/bartlett/study/student-and-alumni-profiles/alumni-qas-tanya-khanna-putting-indian-design-global-map | 404 Client Error: Not Found for url: https://www.ucl.ac.uk/bartlett/study/student-and-alumni-profiles/alumni-qas-tanya-khanna-putting-indian-design-global-map
+2026-09-19 13:20:35,313 | WARNING | Request failed: https://www.ucl.ac.uk/news/2023/jul/node/230403 | 404 Client Error: Not Found for url: https://www.ucl.ac.uk/news/2023/jul/node/230403
+2026-09-19 13:20:36,922 | WARNING | Request failed: https://www.ucl.ac.uk/computer-science/ucl-computer-science | 404 Client Error: Not Found for url: https://www.ucl.ac.uk/engineering/computer-science/ucl-computer-science
+2026-09-19 13:21:29,129 | INFO | AFC is enabled with max remote calls: 10.
+2026-09-19 13:21:29,310 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-09-19 13:21:29,311 | ERROR | University failed: UCL
+Traceback (most recent call last):
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 1036, in run_tracker
+    analysis = analyze_change(
+               ^^^^^^^^^^^^^^^
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 859, in analyze_change
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/models.py", line 6270, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/models.py", line 4707, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1750, in request
+    response = self._request(http_request, http_options, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1537, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 371, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1514, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/errors.py", line 173, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/errors.py", line 202, in raise_error
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}
+2026-09-19 13:21:29,538 | WARNING | Request failed: https://isc.um.edu.my/ | HTTPSConnectionPool(host='isc.um.edu.my', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='isc.um.edu.my', port=443): Failed to resolve 'isc.um.edu.my' ([Errno -2] Name or service not known)"))
+2026-09-19 13:21:59,444 | WARNING | Request failed: https://www.fu-berlin.de/en/sites/internationalweek/partneruniversitaeten | 404 Client Error: Not Found for url: https://www.fu-berlin.de/en/sites/internationalweek/partneruniversitaeten
+2026-09-19 13:22:31,210 | WARNING | Request failed: https://www.fu-berlin.de/sites/internationalweek/partneruniversitaeten/index.html | 404 Client Error: Not Found for url: https://www.fu-berlin.de/sites/internationalweek/partneruniversitaeten/index.html
+2026-09-19 13:24:46,402 | WARNING | Request failed: http://www.fu-berlin.de/vv/en/fb | 503 Server Error: Service Unavailable for url: https://www.fu-berlin.de/vv/en/fb
+2026-09-19 13:25:28,407 | WARNING | Request failed: http://wikis.fu-berlin.de/ | HTTPConnectionPool(host='wikis.fu-berlin.de', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='wikis.fu-berlin.de', port=80) at 0x7fa106209350>, 'Connection to wikis.fu-berlin.de timed out. (connect timeout=30)'))
+2026-09-19 13:26:01,448 | WARNING | Request failed: https://www.fu-berlin.de/en/sites/kommunikation/referate/presse/index.html | 404 Client Error: Not Found for url: https://www.fu-berlin.de/en/sites/kommunikation/referate/presse/index.html
+2026-09-19 13:28:28,044 | WARNING | Request failed: https://wikis.fu-berlin.de/display/studying/Studying+101+-+A+Simple+Guide+for+Students | HTTPSConnectionPool(host='wikis.fu-berlin.de', port=443): Max retries exceeded with url: /display/studying/Studying+101+-+A+Simple+Guide+for+Students (Caused by ConnectTimeoutError(<HTTPSConnection(host='wikis.fu-berlin.de', port=443) at 0x7fa106158b50>, 'Connection to wikis.fu-berlin.de timed out. (connect timeout=30)'))
+2026-09-19 13:29:46,228 | WARNING | Request failed: https://wikis.fu-berlin.de/display/studying | HTTPSConnectionPool(host='wikis.fu-berlin.de', port=443): Max retries exceeded with url: /display/studying (Caused by ConnectTimeoutError(<HTTPSConnection(host='wikis.fu-berlin.de', port=443) at 0x7fa105e6d690>, 'Connection to wikis.fu-berlin.de timed out. (connect timeout=30)'))
+2026-09-19 13:30:23,831 | WARNING | Request failed: https://www.global.campus.fu-berlin.de/programs/undergrad/index.html | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-09-19 13:32:19,305 | WARNING | Request failed: http://www.international.fu-berlin.de/ | HTTPConnectionPool(host='www.international.fu-berlin.de', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='www.international.fu-berlin.de', port=80): Failed to resolve 'www.international.fu-berlin.de' ([Errno -2] Name or service not known)"))
+2026-09-19 13:32:21,405 | WARNING | Request failed: https://www.fu-berlin.de/en/studium/bewerbung/Bewerberinfo.html | 404 Client Error: Not Found for url: https://www.fu-berlin.de/en/studium/bewerbung/Bewerberinfo.html
+2026-09-19 13:33:42,286 | WARNING | Request failed: https://www.fu-berlin.de/en/sites/abt-1/formulare/index.html | 403 Client Error: Forbidden for url: https://www.fu-berlin.de/en/sites/abt-1/formulare/index.html
+2026-09-19 13:34:16,896 | WARNING | Request failed: https://wikis.fu-berlin.de/spaces/kum/overview | HTTPSConnectionPool(host='wikis.fu-berlin.de', port=443): Max retries exceeded with url: /spaces/kum/overview (Caused by ConnectTimeoutError(<HTTPSConnection(host='wikis.fu-berlin.de', port=443) at 0x7fa106190e10>, 'Connection to wikis.fu-berlin.de timed out. (connect timeout=30)'))
+2026-09-19 13:34:28,475 | WARNING | Request failed: https://www.fu-berlin.de/service/zuvdocs/weitere-fu/index.html | 403 Client Error: Forbidden for url: https://www.fu-berlin.de/service/zuvdocs/weitere-fu/index.html
+2026-09-19 13:34:30,667 | WARNING | Request failed: https://www.fu-berlin.de/service/zuvdocs/fu-rundschreiben/index.html | 403 Client Error: Forbidden for url: https://www.fu-berlin.de/service/zuvdocs/fu-rundschreiben/index.html
+2026-09-19 13:35:13,270 | WARNING | Request failed: https://wikis.fu-berlin.de/spaces/kum/pages/1282837049/Service-Wiki+der+Stabsstelle+Kommunikation+und+Marketing | HTTPSConnectionPool(host='wikis.fu-berlin.de', port=443): Max retries exceeded with url: /spaces/kum/pages/1282837049/Service-Wiki+der+Stabsstelle+Kommunikation+und+Marketing (Caused by ConnectTimeoutError(<HTTPSConnection(host='wikis.fu-berlin.de', port=443) at 0x7fa105890c10>, 'Connection to wikis.fu-berlin.de timed out. (connect timeout=30)'))
+2026-09-19 13:35:48,469 | WARNING | Request failed: https://stellenticket.fu-berlin.de/en/welcome | 404 Client Error: Not Found for url: https://stellenticket.fu-berlin.de/en/welcome
+2026-09-19 13:37:07,388 | INFO | AFC is enabled with max remote calls: 10.
+2026-09-19 13:37:07,573 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-09-19 13:37:07,573 | ERROR | University failed: Freie Universität Berlin
+Traceback (most recent call last):
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 1036, in run_tracker
+    analysis = analyze_change(
+               ^^^^^^^^^^^^^^^
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 859, in analyze_change
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/models.py", line 6270, in generate_content
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/models.py", line 4707, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1750, in request
+    response = self._request(http_request, http_options, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1537, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 371, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1514, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/errors.py", line 173, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/google/genai/errors.py", line 202, in raise_error
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.6-flash for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}
+2026-09-19 13:37:09,007 | WARNING | Request failed: https://www.lmu.de/en/study/all-degrees-and-programs/international-full-time-students | 404 Client Error: Not Found for url: https://www.lmu.de/en/study/all-degrees-and-programs/international-full-time-students
+2026-09-19 13:37:10,972 | WARNING | Request failed: https://www.tu.berlin/en/studying/international-students | 404 Client Error: Not Found for url: https://www.tu.berlin/en/studying/international-students
