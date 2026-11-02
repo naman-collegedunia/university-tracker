@@ -36363,3 +36363,627 @@ Traceback (most recent call last):
 google.genai.errors.ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}
 2026-11-01 15:54:31,359 | WARNING | Request failed: https://www.lmu.de/en/study/all-degrees-and-programs/international-full-time-students | 404 Client Error: Not Found for url: https://www.lmu.de/en/study/all-degrees-and-programs/international-full-time-students
 2026-11-01 15:54:32,222 | WARNING | Request failed: https://www.tu.berlin/en/studying/international-students | 404 Client Error: Not Found for url: https://www.tu.berlin/en/studying/international-students
+2026-11-02 18:07:18,690 | WARNING | Request failed: https://global-lounge.bristol.ac.uk/contact-us | 429 Client Error: Too Many Requests for url: https://global-lounge.bristol.ac.uk/contact-us/
+2026-11-02 18:07:18,815 | WARNING | Request failed: https://global-lounge.bristol.ac.uk/culture-club | 429 Client Error: Too Many Requests for url: https://global-lounge.bristol.ac.uk/culture-club
+2026-11-02 18:07:18,940 | WARNING | Request failed: https://global-lounge.bristol.ac.uk/get-involved | 429 Client Error: Too Many Requests for url: https://global-lounge.bristol.ac.uk/get-involved
+2026-11-02 18:07:19,065 | WARNING | Request failed: https://global-lounge.bristol.ac.uk/event-passport | 429 Client Error: Too Many Requests for url: https://global-lounge.bristol.ac.uk/event-passport
+2026-11-02 18:07:19,190 | WARNING | Request failed: https://global-lounge.bristol.ac.uk/global-lounge-ambassador-scheme | 429 Client Error: Too Many Requests for url: https://global-lounge.bristol.ac.uk/global-lounge-ambassador-scheme
+2026-11-02 18:07:19,753 | WARNING | Request failed: https://global-lounge.bristol.ac.uk/blogs | 429 Client Error: Too Many Requests for url: https://global-lounge.bristol.ac.uk/blogs/
+2026-11-02 18:07:19,879 | WARNING | Request failed: https://global-lounge.bristol.ac.uk/2026/09/25/drop-in-to-the-global-lounge-at-tqec | 429 Client Error: Too Many Requests for url: https://global-lounge.bristol.ac.uk/2026/09/25/drop-in-to-the-global-lounge-at-tqec
+2026-11-02 18:07:20,005 | WARNING | Request failed: https://global-lounge.bristol.ac.uk/global-lounge-friday-hangouts | 429 Client Error: Too Many Requests for url: https://global-lounge.bristol.ac.uk/global-lounge-friday-hangouts
+2026-11-02 18:07:20,130 | WARNING | Request failed: https://global-lounge.bristol.ac.uk/what-is-the-global-lounge | 429 Client Error: Too Many Requests for url: https://global-lounge.bristol.ac.uk/what-is-the-global-lounge
+2026-11-02 18:07:20,255 | WARNING | Request failed: https://global-lounge.bristol.ac.uk/2026/01/24/tips-for-observing-ramadan-away-from-home-and-supporting-your-friends | 429 Client Error: Too Many Requests for url: https://global-lounge.bristol.ac.uk/2026/01/24/tips-for-observing-ramadan-away-from-home-and-supporting-your-friends
+2026-11-02 18:07:20,381 | WARNING | Request failed: https://global-lounge.bristol.ac.uk/events | 429 Client Error: Too Many Requests for url: https://global-lounge.bristol.ac.uk/events
+2026-11-02 18:07:20,507 | WARNING | Request failed: https://global-lounge.bristol.ac.uk/book | 429 Client Error: Too Many Requests for url: https://global-lounge.bristol.ac.uk/book
+2026-11-02 18:07:20,631 | WARNING | Request failed: https://global-lounge.bristol.ac.uk/2024/07/29/spring-events-2024 | 429 Client Error: Too Many Requests for url: https://global-lounge.bristol.ac.uk/2024/07/29/spring-events-2024
+2026-11-02 18:07:20,756 | WARNING | Request failed: https://global-lounge.bristol.ac.uk/opening-hours-weekly | 429 Client Error: Too Many Requests for url: https://global-lounge.bristol.ac.uk/opening-hours-weekly
+2026-11-02 18:07:20,881 | WARNING | Request failed: https://global-lounge.bristol.ac.uk/meet-the-team | 429 Client Error: Too Many Requests for url: https://global-lounge.bristol.ac.uk/meet-the-team
+2026-11-02 18:07:21,733 | WARNING | Request failed: https://globallounge.blogs.bristol.ac.uk/events | 429 Client Error: Too Many Requests for url: https://globallounge.blogs.bristol.ac.uk/events
+2026-11-02 18:07:21,858 | WARNING | Request failed: https://global-lounge.bristol.ac.uk/grow-your-skills | 429 Client Error: Too Many Requests for url: https://global-lounge.bristol.ac.uk/grow-your-skills
+2026-11-02 18:09:39,738 | WARNING | Request failed: http://www.bristol.ac.uk/green/get-involved/green-impact | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/sustainability/get-involved/green-impact
+2026-11-02 18:12:22,541 | WARNING | Request failed: http://www.bristol.ac.uk/library/support/research/open-access.html | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/library/support/research/open-access.html
+2026-11-02 18:12:49,897 | INFO | AFC is enabled with max remote calls: 10.
+2026-11-02 18:12:50,189 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-11-02 18:12:50,190 | ERROR | University failed: University of Bristol
+Traceback (most recent call last):
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 1036, in run_tracker
+    analysis = analyze_change(
+               ^^^^^^^^^^^^^^^
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 859, in analyze_change
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/models.py", line 6370, in generate_content
+    response = self._generate_content_with_continuation(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/models.py", line 6211, in _generate_content_with_continuation
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/models.py", line 4750, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 2073, in request
+    response = self._request(http_request, http_options, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1849, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 371, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1826, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/errors.py", line 187, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/errors.py", line 216, in raise_error
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}
+2026-11-02 18:16:34,611 | WARNING | Request failed: https://secretariat.leeds.ac.uk/corporate-governance/main-university-committees/council | 404 Client Error: Not Found for url: https://secretariat.leeds.ac.uk/corporate-governance/main-university-committees/council
+2026-11-02 18:16:37,891 | WARNING | Request failed: http://www.leeds.ac.uk/secretariat/charter.html | 404 Client Error: Not Found for url: https://www.leeds.ac.uk:443/secretariat/charter.html
+2026-11-02 18:17:40,402 | WARNING | Request failed: https://www.leeds.ac.uk/rss/news | 404 Client Error: Not Found for url: https://www.leeds.ac.uk/rss/news
+2026-11-02 18:17:50,683 | WARNING | Request failed: https://mymedia.leeds.ac.uk/ | HTTPSConnectionPool(host='mymedia.leeds.ac.uk', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='mymedia.leeds.ac.uk', port=443): Failed to resolve 'mymedia.leeds.ac.uk' ([Errno -2] Name or service not known)"))
+2026-11-02 18:21:24,784 | INFO | AFC is enabled with max remote calls: 10.
+2026-11-02 18:21:24,988 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-11-02 18:21:24,989 | ERROR | University failed: University of Leeds
+Traceback (most recent call last):
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 1036, in run_tracker
+    analysis = analyze_change(
+               ^^^^^^^^^^^^^^^
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 859, in analyze_change
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/models.py", line 6370, in generate_content
+    response = self._generate_content_with_continuation(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/models.py", line 6211, in _generate_content_with_continuation
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/models.py", line 4750, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 2073, in request
+    response = self._request(http_request, http_options, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1849, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 371, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1826, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/errors.py", line 187, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/errors.py", line 216, in raise_error
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}
+2026-11-02 18:25:16,609 | WARNING | Request failed: https://pure.york.ac.uk/portal/en/searchAll/index/?search=Zoom | 403 Client Error: Forbidden for url: https://pure.york.ac.uk/portal/en/searchAll/index/?search=Zoom
+2026-11-02 18:26:20,276 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/mnurs-nursing-adult | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/mnurs-nursing-adult
+2026-11-02 18:26:20,375 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-physics-industry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-physics-industry
+2026-11-02 18:26:20,485 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-chemistry-atmosphere-environment | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-chemistry-atmosphere-environment
+2026-11-02 18:26:20,590 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses-future/ba-english-literature-spanish | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses-future/ba-english-literature-spanish
+2026-11-02 18:26:22,494 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/mchem-chemistry-atmosphere-environment-industry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/mchem-chemistry-atmosphere-environment-industry
+2026-11-02 18:26:22,607 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/menv-environmental-science | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/menv-environmental-science
+2026-11-02 18:26:22,742 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/llb-law-senior-status | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/llb-law-senior-status
+2026-11-02 18:26:22,844 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-business-management-french-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-business-management-french-abroad
+2026-11-02 18:26:22,949 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-history-politics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-history-politics
+2026-11-02 18:26:23,076 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-mathematics-management | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-mathematics-management
+2026-11-02 18:26:23,188 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-physics-philosophy-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-physics-philosophy-year-abroad
+2026-11-02 18:26:23,306 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/beng-bsc-computer-science-industry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/beng-bsc-computer-science-industry
+2026-11-02 18:26:23,435 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/mbiol-genetics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/mbiol-genetics
+2026-11-02 18:26:25,206 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-linguistics-german | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-linguistics-german
+2026-11-02 18:26:25,741 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/meng-computer-science-with-cyber-security | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/meng-computer-science-with-cyber-security
+2026-11-02 18:26:25,861 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/mchem-chemistry-york | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/mchem-chemistry-york
+2026-11-02 18:26:25,959 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/mchem-chemistry-green-principles-industry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/mchem-chemistry-green-principles-industry
+2026-11-02 18:26:26,074 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/mbiochem-biochemistry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/mbiochem-biochemistry
+2026-11-02 18:26:26,193 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-computer-science-mathematics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-computer-science-mathematics
+2026-11-02 18:26:26,299 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-mathematics-finance | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-mathematics-finance
+2026-11-02 18:26:26,441 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-liberal-arts-spanish | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-liberal-arts-spanish
+2026-11-02 18:26:26,563 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-biotechnology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-biotechnology
+2026-11-02 18:26:26,668 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-history-of-art-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-history-of-art-year-abroad
+2026-11-02 18:26:26,774 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-business-management-industry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-business-management-industry
+2026-11-02 18:26:26,881 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/mbiomedsci-biomedical-sciences | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/mbiomedsci-biomedical-sciences
+2026-11-02 18:26:27,066 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-environment-economics-ecology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-environment-economics-ecology
+2026-11-02 18:26:28,825 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses-future/ba-english-literature-italian | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses-future/ba-english-literature-italian
+2026-11-02 18:26:28,915 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-mathematics-management-industry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-mathematics-management-industry
+2026-11-02 18:26:29,026 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-economics-econometrics-finance | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-economics-econometrics-finance
+2026-11-02 18:26:29,124 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/meng-electronic-computer-engineering | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/meng-electronic-computer-engineering
+2026-11-02 18:26:29,224 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/mmath-mathematics-computer-science | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/mmath-mathematics-computer-science
+2026-11-02 18:26:29,324 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-physics-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-physics-year-abroad
+2026-11-02 18:26:29,434 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/mchem-chemistry-green-principles-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/mchem-chemistry-green-principles-year-abroad
+2026-11-02 18:26:29,537 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-business-management-spanish-industry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-business-management-spanish-industry
+2026-11-02 18:26:29,644 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/beng-electronic-computer-engineering | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/beng-electronic-computer-engineering
+2026-11-02 18:26:29,743 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-molecular-cell-biology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-molecular-cell-biology
+2026-11-02 18:26:29,859 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-philosophy-french-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-philosophy-french-year-abroad
+2026-11-02 18:26:29,965 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-physics-foundation-year | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-physics-foundation-year
+2026-11-02 18:26:30,069 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-physical-geography-environment-placement | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-physical-geography-environment-placement
+2026-11-02 18:26:30,208 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/mphys-physics-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/mphys-physics-year-abroad
+2026-11-02 18:26:30,309 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-sociology-social-psychology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-sociology-social-psychology
+2026-11-02 18:26:30,408 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-physical-geography-environment | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-physical-geography-environment
+2026-11-02 18:26:30,551 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-business-creative-industries | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-business-creative-industries
+2026-11-02 18:26:30,653 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-international-relations-german-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-international-relations-german-year-abroad
+2026-11-02 18:26:30,785 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-history-economics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-history-economics
+2026-11-02 18:26:30,872 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-international-relations | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-international-relations
+2026-11-02 18:26:30,980 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-physics-astrophysics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-physics-astrophysics
+2026-11-02 18:26:31,128 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-english-language-literature | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-english-language-literature
+2026-11-02 18:26:31,233 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-history-art-history | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-history-art-history
+2026-11-02 18:26:31,335 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-history-of-art-spanish-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-history-of-art-spanish-year-abroad
+2026-11-02 18:26:31,468 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-data-science-industry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-data-science-industry
+2026-11-02 18:26:31,571 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/msci-data-science-industry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/msci-data-science-industry
+2026-11-02 18:26:31,682 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-philosophy-politics-economics-ppe | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-philosophy-politics-economics-ppe
+2026-11-02 18:26:32,276 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/meng-computer-science-with-cyber-security-industry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/meng-computer-science-with-cyber-security-industry
+2026-11-02 18:26:32,381 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-french-spanish-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-french-spanish-year-abroad
+2026-11-02 18:26:32,485 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses-future/ba-criminology-and-social-psychology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses-future/ba-criminology-and-social-psychology
+2026-11-02 18:26:32,601 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-environmental-science-placement | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-environmental-science-placement
+2026-11-02 18:26:32,698 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/msci-linguistics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/msci-linguistics
+2026-11-02 18:26:32,819 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/mbiol-molecular-cell-biology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/mbiol-molecular-cell-biology
+2026-11-02 18:26:32,951 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-economics-philosophy | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-economics-philosophy
+2026-11-02 18:26:33,462 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-curating-art-history-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-curating-art-history-year-abroad/
+2026-11-02 18:26:33,574 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-digital-media-culture-and-communication | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-digital-media-culture-and-communication
+2026-11-02 18:26:33,680 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/menv-environment-economics-ecology-placement | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/menv-environment-economics-ecology-placement
+2026-11-02 18:26:33,807 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/beng-engineering-audio-technology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/beng-engineering-audio-technology
+2026-11-02 18:26:33,913 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-human-geography-environment-placement | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-human-geography-environment-placement
+2026-11-02 18:26:34,024 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-social-psychology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-social-psychology
+2026-11-02 18:26:34,131 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-theoretical-physics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-theoretical-physics
+2026-11-02 18:26:34,240 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-social-public-policy-ethics-justice-industry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-social-public-policy-ethics-justice-industry
+2026-11-02 18:26:34,349 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-social-political-sciences-industry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-social-political-sciences-industry
+2026-11-02 18:26:34,451 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-liberal-arts-german | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-liberal-arts-german
+2026-11-02 18:26:34,552 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-history-philosophy | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-history-philosophy
+2026-11-02 18:26:34,651 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-history | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-history
+2026-11-02 18:26:36,296 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/childhood-studies | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/childhood-studies
+2026-11-02 18:26:36,405 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-education-german-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-education-german-year-abroad
+2026-11-02 18:26:36,552 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-interactive-media | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-interactive-media
+2026-11-02 18:26:36,664 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-history-of-art | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-history-of-art
+2026-11-02 18:26:36,771 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-philosophy-linguistics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-philosophy-linguistics
+2026-11-02 18:26:36,865 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-computer-science-cyber-security | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-computer-science-cyber-security
+2026-11-02 18:26:36,953 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-social-public-policy | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-social-public-policy
+2026-11-02 18:26:37,063 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/beng-electronic-engineering | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/beng-electronic-engineering
+2026-11-02 18:26:37,157 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-french-german-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-french-german-year-abroad
+2026-11-02 18:26:37,258 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-accounting-finance | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-accounting-finance
+2026-11-02 18:26:37,525 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-accounting-business-finance | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-accounting-business-finance/
+2026-11-02 18:26:37,667 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-business-management-italian-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-business-management-italian-abroad
+2026-11-02 18:26:37,771 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-mathematics-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-mathematics-year-abroad
+2026-11-02 18:26:37,888 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-computer-science | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-computer-science
+2026-11-02 18:26:37,979 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-italian-spanish-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-italian-spanish-year-abroad
+2026-11-02 18:26:38,089 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-social-public-policy-industry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-social-public-policy-industry
+2026-11-02 18:26:38,181 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-business-management-spanish-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-business-management-spanish-abroad
+2026-11-02 18:26:38,283 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/mphys-physics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/mphys-physics
+2026-11-02 18:26:38,375 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-computer-science-ai-industry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-computer-science-ai-industry
+2026-11-02 18:26:38,519 | WARNING | Request failed: http://www.york.ac.uk/study/undergraduate/courses/ba-english-literature-philosophy | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-english-literature-philosophy
+2026-11-02 18:26:38,615 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-biochemistry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-biochemistry
+2026-11-02 18:26:38,711 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-linguistics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-linguistics
+2026-11-02 18:26:38,823 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/mchem-chemistry-digital-methods-industry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/mchem-chemistry-digital-methods-industry
+2026-11-02 18:26:38,936 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/meng-computer-science-with-ai-industry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/meng-computer-science-with-ai-industry
+2026-11-02 18:26:39,030 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-chemistry-digital-methods | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-chemistry-digital-methods
+2026-11-02 18:26:39,134 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-interactive-media-games | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-interactive-media-games
+2026-11-02 18:26:39,251 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-economics-finance | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-economics-finance
+2026-11-02 18:26:39,358 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-education-spanish-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-education-spanish-year-abroad
+2026-11-02 18:26:39,466 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/mchem-chemistry-industry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/mchem-chemistry-industry
+2026-11-02 18:26:39,732 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-archaeology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-archaeology/
+2026-11-02 18:26:39,831 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-english-literature | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-english-literature
+2026-11-02 18:26:41,636 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-linguistics-italian | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-linguistics-italian
+2026-11-02 18:26:41,735 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-mathematics-philosophy | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-mathematics-philosophy
+2026-11-02 18:26:41,862 | WARNING | Request failed: http://www.york.ac.uk/study/undergraduate/courses/ba-english-literature-history-of-art | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-english-literature-history-of-art
+2026-11-02 18:26:41,981 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-business-management-italian-industry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-business-management-italian-industry
+2026-11-02 18:26:42,238 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-economics-and-management | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-economics-and-management/
+2026-11-02 18:26:42,333 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-economics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-economics
+2026-11-02 18:26:42,430 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-international-relations-italian-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-international-relations-italian-year-abroad
+2026-11-02 18:26:42,523 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses
+2026-11-02 18:26:42,620 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-history-of-art-french-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-history-of-art-french-year-abroad
+2026-11-02 18:26:42,742 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-business-management-german-industry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-business-management-german-industry
+2026-11-02 18:26:42,879 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-biology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-biology
+2026-11-02 18:26:42,974 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-economics-mathematics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-economics-mathematics
+2026-11-02 18:26:43,061 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-physics-astrophysics-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-physics-astrophysics-year-abroad
+2026-11-02 18:26:43,168 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/mchem-chemistry-biological-medicinal-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/mchem-chemistry-biological-medicinal-year-abroad
+2026-11-02 18:26:43,273 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-mathematics-statistics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-mathematics-statistics
+2026-11-02 18:26:43,385 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/mchem-chemistry-digital-methods-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/mchem-chemistry-digital-methods-year-abroad
+2026-11-02 18:26:43,479 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-economics-politics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-economics-politics
+2026-11-02 18:26:43,575 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-history-of-art-german-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-history-of-art-german-year-abroad
+2026-11-02 18:26:43,672 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/meng-robotic-engineering | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/meng-robotic-engineering
+2026-11-02 18:26:43,770 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-criminal-justice-social-policy | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-criminal-justice-social-policy
+2026-11-02 18:26:43,890 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/mbiol-biotechnology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/mbiol-biotechnology
+2026-11-02 18:26:43,997 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-computer-science-mathematics-industry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-computer-science-mathematics-industry
+2026-11-02 18:26:44,101 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-criminology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-criminology
+2026-11-02 18:26:44,204 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/meng-ee-music-technology-systems | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/meng-ee-music-technology-systems
+2026-11-02 18:26:44,293 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-social-public-policy-ethics-justice | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-social-public-policy-ethics-justice
+2026-11-02 18:26:46,197 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-international-relations-french-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-international-relations-french-year-abroad
+2026-11-02 18:26:46,292 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-chemistry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-chemistry
+2026-11-02 18:26:46,381 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-music-sound-recording | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-music-sound-recording
+2026-11-02 18:26:46,471 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-international-relations-spanish-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-international-relations-spanish-year-abroad
+2026-11-02 18:26:46,579 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-theoretical-physics-industry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-theoretical-physics-industry
+2026-11-02 18:26:46,688 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-education | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-education
+2026-11-02 18:26:46,780 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/menv-physical-geography-environment-placement | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/menv-physical-geography-environment-placement
+2026-11-02 18:26:46,886 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-liberal-arts-italian | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-liberal-arts-italian
+2026-11-02 18:26:46,975 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/meng-computer-science-industry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/meng-computer-science-industry
+2026-11-02 18:26:47,083 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-computer-science-cyber-security-industry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-computer-science-cyber-security-industry
+2026-11-02 18:26:47,175 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-actuarial-science | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-actuarial-science
+2026-11-02 18:26:47,268 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/mphys-physics-astrophysics-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/mphys-physics-astrophysics-year-abroad
+2026-11-02 18:26:47,361 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-spanish-linguistics-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-spanish-linguistics-year-abroad
+2026-11-02 18:26:47,463 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-marketing-industry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-marketing-industry
+2026-11-02 18:26:47,574 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/beng-engineering | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/beng-engineering
+2026-11-02 18:26:47,659 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-french-italian-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-french-italian-year-abroad
+2026-11-02 18:26:47,756 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-mathematics-physics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-mathematics-physics
+2026-11-02 18:26:47,845 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-french-history-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-french-history-year-abroad
+2026-11-02 18:26:47,974 | WARNING | Request failed: http://www.york.ac.uk/study/undergraduate/courses/ba-english-literature-history | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-english-literature-history
+2026-11-02 18:26:48,084 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/meng-medical-engineering | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/meng-medical-engineering
+2026-11-02 18:26:48,176 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-politics-international-relations | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-politics-international-relations
+2026-11-02 18:26:48,263 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-philosophy-italian-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-philosophy-italian-year-abroad
+2026-11-02 18:26:48,384 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/mmath-mathematics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/mmath-mathematics
+2026-11-02 18:26:48,480 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-historical-archaeology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-historical-archaeology
+2026-11-02 18:26:48,585 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/mchem-chemistry-atmosphere-environment-york | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/mchem-chemistry-atmosphere-environment-york
+2026-11-02 18:26:48,689 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-physics-astrophysics-industry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-physics-astrophysics-industry
+2026-11-02 18:26:48,800 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/msci-immunology-infectious-disease | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/msci-immunology-infectious-disease
+2026-11-02 18:26:48,888 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-german-history-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-german-history-year-abroad
+2026-11-02 18:26:48,988 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-theoretical-physics-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-theoretical-physics-year-abroad
+2026-11-02 18:26:49,087 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-theatre-writing-directing-performance | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-theatre-writing-directing-performance
+2026-11-02 18:26:49,178 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/mphys-physics-industry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/mphys-physics-industry
+2026-11-02 18:26:49,280 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-business-management | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-business-management
+2026-11-02 18:26:49,387 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-business-society | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-business-society
+2026-11-02 18:26:49,478 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bmid-midwifery | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bmid-midwifery
+2026-11-02 18:26:49,612 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/meng-engineering | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/meng-engineering
+2026-11-02 18:26:49,706 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-environmental-science | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-environmental-science
+2026-11-02 18:26:49,805 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-biomedical-sciences | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-biomedical-sciences
+2026-11-02 18:26:49,913 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/llb-law-criminology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/llb-law-criminology
+2026-11-02 18:26:50,034 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-philosophy-politics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-philosophy-politics
+2026-11-02 18:26:50,140 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-human-geography-environment | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-human-geography-environment
+2026-11-02 18:26:50,229 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/mchem-chemistry-atmosphere-environment-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/mchem-chemistry-atmosphere-environment-year-abroad
+2026-11-02 18:26:50,361 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-bioarchaeology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-bioarchaeology
+2026-11-02 18:26:50,453 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/intelligent-digital-health-engineering-beng | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/intelligent-digital-health-engineering-beng
+2026-11-02 18:26:50,539 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-sociology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-sociology
+2026-11-02 18:26:50,648 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-curating-art-history | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-curating-art-history
+2026-11-02 18:26:50,748 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/mmath-mathematics-computer-science-year-industry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/mmath-mathematics-computer-science-year-industry
+2026-11-02 18:26:50,854 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-psychology-education | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-psychology-education
+2026-11-02 18:26:50,965 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-education-italian-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-education-italian-year-abroad
+2026-11-02 18:26:51,068 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/llb-ihrl | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/llb-ihrl
+2026-11-02 18:26:51,170 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/msci-neuroscience | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/msci-neuroscience
+2026-11-02 18:26:51,270 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-psychology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-psychology
+2026-11-02 18:26:51,374 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-genetics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-genetics
+2026-11-02 18:26:51,489 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-physics-philosophy | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-physics-philosophy
+2026-11-02 18:26:51,591 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-business-society-industry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-business-society-industry
+2026-11-02 18:26:51,693 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses-future/ba-english-literature-french | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses-future/ba-english-literature-french
+2026-11-02 18:26:51,814 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-actuarial-science-industry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-actuarial-science-industry
+2026-11-02 18:26:51,916 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/graduate-llb-professional-law-sqe | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/graduate-llb-professional-law-sqe
+2026-11-02 18:26:52,005 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-film-television-production | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-film-television-production
+2026-11-02 18:26:52,112 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/mphys-theoretical-physics-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/mphys-theoretical-physics-year-abroad
+2026-11-02 18:26:52,210 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-neuroscience | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-neuroscience
+2026-11-02 18:26:52,718 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-french-linguistics-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-french-linguistics-year-abroad/
+2026-11-02 18:26:52,814 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-architecture | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-architecture
+2026-11-02 18:26:54,554 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/meng-electronic-engineering | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/meng-electronic-engineering
+2026-11-02 18:26:54,657 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-business-management | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-business-management
+2026-11-02 18:26:54,746 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/beng-biomedical-engineering | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/beng-biomedical-engineering
+2026-11-02 18:26:54,853 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-english-literature-politics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-english-literature-politics
+2026-11-02 18:26:54,951 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-nursing-child | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-nursing-child
+2026-11-02 18:26:55,052 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-accounting-business-finance-industry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-accounting-business-finance-industry
+2026-11-02 18:26:55,178 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-mathematics-physics-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-mathematics-physics-year-abroad
+2026-11-02 18:26:55,295 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/mnurs-nursing-child | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/mnurs-nursing-child
+2026-11-02 18:26:56,821 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/beng-engineering-foundation-year | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/beng-engineering-foundation-year
+2026-11-02 18:26:56,907 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-criminal-justice-social-policy-industry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-criminal-justice-social-policy-industry
+2026-11-02 18:26:56,992 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-politics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-politics
+2026-11-02 18:26:57,099 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-social-political-sciences | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-social-political-sciences
+2026-11-02 18:26:57,204 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-german-linguistics-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-german-linguistics-year-abroad
+2026-11-02 18:26:57,296 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/mphys-theoretical-physics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/mphys-theoretical-physics
+2026-11-02 18:26:57,486 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/mphys-physics-astrophysics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/mphys-physics-astrophysics
+2026-11-02 18:26:57,573 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-computer-science-artificial-intelligence | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-computer-science-artificial-intelligence
+2026-11-02 18:26:57,674 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/mphys-theoretical-physics-industry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/mphys-theoretical-physics-industry
+2026-11-02 18:26:57,782 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-nursing-adult | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-nursing-adult
+2026-11-02 18:26:57,904 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/mchem-chemistry-green-principles-york | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/mchem-chemistry-green-principles-york
+2026-11-02 18:26:57,991 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-music | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-music
+2026-11-02 18:26:58,103 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-business-management-french-industry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-business-management-french-industry
+2026-11-02 18:26:58,190 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-italian-history-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-italian-history-year-abroad
+2026-11-02 18:27:00,159 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-philosophy-politics-economics-ppe | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-philosophy-politics-economics-ppe
+2026-11-02 18:27:00,403 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-education-french-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-education-french-year-abroad
+2026-11-02 18:27:00,505 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-archaeology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-archaeology
+2026-11-02 18:27:00,613 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-philosophy-sociology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-philosophy-sociology
+2026-11-02 18:27:00,700 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/msocw-social-work | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/msocw-social-work
+2026-11-02 18:27:00,800 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/beng-electronic-engineering-foundation-year | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/beng-electronic-engineering-foundation-year
+2026-11-02 18:27:00,892 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/msci-ecology-conservation-biology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/msci-ecology-conservation-biology
+2026-11-02 18:27:01,001 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-linguistics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-linguistics
+2026-11-02 18:27:01,109 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/mbiol-biology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/mbiol-biology
+2026-11-02 18:27:01,210 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-accounting-finance-industry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-accounting-finance-industry
+2026-11-02 18:27:01,307 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-physics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-physics
+2026-11-02 18:27:01,399 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-environment-economics-ecology-placement | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-environment-economics-ecology-placement
+2026-11-02 18:27:01,494 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-archaeology-heritage | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-archaeology-heritage
+2026-11-02 18:27:01,594 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-business-management-industry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-business-management-industry
+2026-11-02 18:27:01,704 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-immunology-infectious-disease | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-immunology-infectious-disease
+2026-11-02 18:27:01,800 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-chemistry-green-principles | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-chemistry-green-principles
+2026-11-02 18:27:01,919 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/beng-ee-music-technology-systems | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/beng-ee-music-technology-systems
+2026-11-02 18:27:02,035 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-german-spanish-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-german-spanish-year-abroad
+2026-11-02 18:27:02,126 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-marketing | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-marketing
+2026-11-02 18:27:02,213 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-philosophy-german-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-philosophy-german-year-abroad
+2026-11-02 18:27:02,332 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/header-dplv2 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/header-dplv2
+2026-11-02 18:27:02,440 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-linguistics-spanish | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-linguistics-spanish
+2026-11-02 18:27:02,530 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/mchem-chemistry-biological-medicinal-york | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/mchem-chemistry-biological-medicinal-york
+2026-11-02 18:27:02,625 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/msci-data-science | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/msci-data-science
+2026-11-02 18:27:02,724 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/qualification-types | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/qualification-types
+2026-11-02 18:27:02,818 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/meng-computer-science | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/meng-computer-science
+2026-11-02 18:27:02,924 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/menv-environmental-science-placement | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/menv-environmental-science-placement
+2026-11-02 18:27:03,035 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/meng-computer-science-artificial-intelligence | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/meng-computer-science-artificial-intelligence
+2026-11-02 18:27:03,118 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-sociology-education | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-sociology-education
+2026-11-02 18:27:03,245 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/menv-environment-economics-ecology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/menv-environment-economics-ecology
+2026-11-02 18:27:03,342 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-liberal-arts | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-liberal-arts
+2026-11-02 18:27:04,925 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-sociology-criminology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-sociology-criminology
+2026-11-02 18:27:06,659 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-spanish-history-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-spanish-history-year-abroad
+2026-11-02 18:27:06,753 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/mchem-chemistry-biological-medicinal-industry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/mchem-chemistry-biological-medicinal-industry
+2026-11-02 18:27:07,002 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses-future/ba-english-literature-german | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-english-literature-german/
+2026-11-02 18:27:07,284 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/meng-engineering-audio-technology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/meng-engineering-audio-technology/
+2026-11-02 18:27:07,374 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-italian-linguistics-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-italian-linguistics-year-abroad
+2026-11-02 18:27:07,500 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/msci-psychology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/msci-psychology
+2026-11-02 18:27:07,602 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/mphys-physics-astrophysics-industry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/mphys-physics-astrophysics-industry
+2026-11-02 18:27:07,701 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/mnurs-nursing-mental-health | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/mnurs-nursing-mental-health
+2026-11-02 18:27:07,809 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/menv-physical-geography-environment | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/menv-physical-geography-environment
+2026-11-02 18:27:07,914 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/mchem-chemistry-digital-methods-york | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/mchem-chemistry-digital-methods-york
+2026-11-02 18:27:08,014 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/mchem-chemistry-year-abroad | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/mchem-chemistry-year-abroad
+2026-11-02 18:27:08,111 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-philosophy | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-philosophy
+2026-11-02 18:27:08,200 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-nursing-mental-health | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-nursing-mental-health
+2026-11-02 18:27:08,286 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/bsc-ecology-conservation-biology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/bsc-ecology-conservation-biology
+2026-11-02 18:27:08,387 | WARNING | Request failed: https://www.york.ac.uk/study/undergraduate/courses/ba-linguistics-french | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/undergraduate/courses/ba-linguistics-french
+2026-11-02 18:27:14,533 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/about | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/about/
+2026-11-02 18:27:14,656 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/all?q=&mode=taught | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/all?q=&mode=taught
+2026-11-02 18:30:07,057 | INFO | AFC is enabled with max remote calls: 10.
+2026-11-02 18:30:07,256 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-11-02 18:30:07,257 | ERROR | University failed: University of York
+Traceback (most recent call last):
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 1036, in run_tracker
+    analysis = analyze_change(
+               ^^^^^^^^^^^^^^^
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 859, in analyze_change
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/models.py", line 6370, in generate_content
+    response = self._generate_content_with_continuation(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/models.py", line 6211, in _generate_content_with_continuation
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/models.py", line 4750, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 2073, in request
+    response = self._request(http_request, http_options, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1849, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 371, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1826, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/errors.py", line 187, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/errors.py", line 216, in raise_error
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}
+2026-11-02 18:37:24,602 | WARNING | Request failed: https://exeter.ac.uk | ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2026-11-02 18:37:27,970 | WARNING | Request failed: https://www.exeter.ac.uk/staff/wellbeing/mentalhealth/spectrum | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-11-02 18:38:29,176 | INFO | AFC is enabled with max remote calls: 10.
+2026-11-02 18:38:29,385 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-11-02 18:38:29,386 | ERROR | University failed: University of Exeter
+Traceback (most recent call last):
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 1036, in run_tracker
+    analysis = analyze_change(
+               ^^^^^^^^^^^^^^^
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 859, in analyze_change
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/models.py", line 6370, in generate_content
+    response = self._generate_content_with_continuation(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/models.py", line 6211, in _generate_content_with_continuation
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/models.py", line 4750, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 2073, in request
+    response = self._request(http_request, http_options, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1849, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 371, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1826, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/errors.py", line 187, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/errors.py", line 216, in raise_error
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}
+2026-11-02 18:38:30,224 | WARNING | Request failed: https://warwick.ac.uk/study/international/country/india | 404 Client Error:  for url: https://warwick.ac.uk/study/international/country/india/
+2026-11-02 18:39:07,361 | WARNING | Request failed: https://moodle.ucl.ac.uk/ | 403 Client Error: Forbidden for url: https://moodle.ucl.ac.uk/
+2026-11-02 18:45:09,630 | WARNING | Request failed: https://evision.ucl.ac.uk/urd/sits.urd/run/siw_lgn | HTTPSConnectionPool(host='evision.ucl.ac.uk', port=443): Max retries exceeded with url: /urd/sits.urd/run/siw_lgn (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
+2026-11-02 18:49:41,235 | WARNING | Request failed: https://www.ucl.ac.uk/prospective-students/international/international-students | 404 Client Error: Not Found for url: https://www.ucl.ac.uk/study/international/international-students
+2026-11-02 18:51:44,496 | WARNING | Request failed: https://myfreports.ucl.ac.uk/Axiom/home/login?ReturnUrl=%2faxiom%2fforms%2fhome | HTTPSConnectionPool(host='myfreports.ucl.ac.uk', port=443): Max retries exceeded with url: /Axiom/home/login?ReturnUrl=%2Faxiom%2Fforms%2Fhome (Caused by ConnectTimeoutError(<HTTPSConnection(host='myfreports.ucl.ac.uk', port=443) at 0x7f84ea7d5850>, 'Connection to myfreports.ucl.ac.uk timed out. (connect timeout=30)'))
+2026-11-02 18:51:52,285 | WARNING | Request failed: https://www.ucl.ac.uk/isd/services/communicate-collaborate/remote-working-tools-and-best-practice | 404 Client Error: Not Found for url: https://www.ucl.ac.uk/isd/services/communicate-collaborate/remote-working-tools-and-best-practice
+2026-11-02 18:53:03,004 | WARNING | Request failed: http://www.ucl.ac.uk/myhr | HTTPSConnectionPool(host='ebs-prod.ucl.ac.uk', port=443): Max retries exceeded with url: /OA_HTML/AppsLogin (Caused by ConnectTimeoutError(<HTTPSConnection(host='ebs-prod.ucl.ac.uk', port=443) at 0x7f84ea06d290>, 'Connection to ebs-prod.ucl.ac.uk timed out. (connect timeout=30)'))
+2026-11-02 18:53:37,897 | INFO | AFC is enabled with max remote calls: 10.
+2026-11-02 18:53:38,184 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-11-02 18:53:38,184 | ERROR | University failed: UCL
+Traceback (most recent call last):
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 1036, in run_tracker
+    analysis = analyze_change(
+               ^^^^^^^^^^^^^^^
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 859, in analyze_change
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/models.py", line 6370, in generate_content
+    response = self._generate_content_with_continuation(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/models.py", line 6211, in _generate_content_with_continuation
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/models.py", line 4750, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 2073, in request
+    response = self._request(http_request, http_options, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1849, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 371, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1826, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/errors.py", line 187, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/errors.py", line 216, in raise_error
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}
+2026-11-02 18:53:39,929 | WARNING | Request failed: https://isc.um.edu.my/ | HTTPSConnectionPool(host='isc.um.edu.my', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='isc.um.edu.my', port=443): Failed to resolve 'isc.um.edu.my' ([Errno -2] Name or service not known)"))
+2026-11-02 18:54:28,544 | WARNING | Request failed: https://www.fu-berlin.de/sites/internationalweek/partneruniversitaeten/index.html | 404 Client Error: Not Found for url: https://www.fu-berlin.de/sites/internationalweek/partneruniversitaeten/index.html
+2026-11-02 18:54:28,850 | WARNING | Request failed: https://www.fu-berlin.de/en/sites/internationalweek/partneruniversitaeten | 404 Client Error: Not Found for url: https://www.fu-berlin.de/en/sites/internationalweek/partneruniversitaeten
+2026-11-02 18:57:56,881 | WARNING | Request failed: https://www.fu-berlin.de/en/sites/kommunikation/referate/presse/index.html | 404 Client Error: Not Found for url: https://www.fu-berlin.de/en/sites/kommunikation/referate/presse/index.html
+2026-11-02 18:59:27,183 | WARNING | Request failed: https://wikis.fu-berlin.de/spaces/kum/pages/1282837049/Service-Wiki+der+Stabsstelle+Kommunikation+und+Marketing | HTTPSConnectionPool(host='wikis.fu-berlin.de', port=443): Max retries exceeded with url: /spaces/kum/pages/1282837049/Service-Wiki+der+Stabsstelle+Kommunikation+und+Marketing (Caused by ConnectTimeoutError(<HTTPSConnection(host='wikis.fu-berlin.de', port=443) at 0x7f84ea629c50>, 'Connection to wikis.fu-berlin.de timed out. (connect timeout=30)'))
+2026-11-02 19:00:36,847 | WARNING | Request failed: http://wikis.fu-berlin.de/ | HTTPConnectionPool(host='wikis.fu-berlin.de', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='wikis.fu-berlin.de', port=80) at 0x7f84ea023b10>, 'Connection to wikis.fu-berlin.de timed out. (connect timeout=30)'))
+2026-11-02 19:01:16,507 | WARNING | Request failed: https://www.fu-berlin.de/service/zuvdocs/fu-rundschreiben/index.html | 403 Client Error: Forbidden for url: https://www.fu-berlin.de/service/zuvdocs/fu-rundschreiben/index.html
+2026-11-02 19:02:05,521 | WARNING | Request failed: https://wikis.fu-berlin.de/spaces/kum/overview | HTTPSConnectionPool(host='wikis.fu-berlin.de', port=443): Max retries exceeded with url: /spaces/kum/overview (Caused by ConnectTimeoutError(<HTTPSConnection(host='wikis.fu-berlin.de', port=443) at 0x7f84e9c8b790>, 'Connection to wikis.fu-berlin.de timed out. (connect timeout=30)'))
+2026-11-02 19:02:07,849 | WARNING | Request failed: https://www.fu-berlin.de/service/zuvdocs/weitere-fu/index.html | 403 Client Error: Forbidden for url: https://www.fu-berlin.de/service/zuvdocs/weitere-fu/index.html
+2026-11-02 19:02:11,010 | WARNING | Request failed: https://www.fu-berlin.de/en/sites/abt-1/formulare/index.html | 403 Client Error: Forbidden for url: https://www.fu-berlin.de/en/sites/abt-1/formulare/index.html
+2026-11-02 19:03:40,998 | WARNING | Request failed: https://wikis.fu-berlin.de/display/studying | HTTPSConnectionPool(host='wikis.fu-berlin.de', port=443): Max retries exceeded with url: /display/studying (Caused by ConnectTimeoutError(<HTTPSConnection(host='wikis.fu-berlin.de', port=443) at 0x7f84ea7e47d0>, 'Connection to wikis.fu-berlin.de timed out. (connect timeout=30)'))
+2026-11-02 19:04:12,029 | WARNING | Request failed: https://www.studium.fu-berlin.de/ | HTTPSConnectionPool(host='gate.ecampus.fu-berlin.de', port=443): Max retries exceeded with url: /sap/bc/ui5_ui5/sap/HER_MYREQUEST/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='gate.ecampus.fu-berlin.de', port=443) at 0x7f84eaf8f010>, 'Connection to gate.ecampus.fu-berlin.de timed out. (connect timeout=30)'))
+2026-11-02 19:05:54,806 | WARNING | Request failed: https://wikis.fu-berlin.de/display/studying/Studying+101+-+A+Simple+Guide+for+Students | HTTPSConnectionPool(host='wikis.fu-berlin.de', port=443): Max retries exceeded with url: /display/studying/Studying+101+-+A+Simple+Guide+for+Students (Caused by ConnectTimeoutError(<HTTPSConnection(host='wikis.fu-berlin.de', port=443) at 0x7f84e9e281d0>, 'Connection to wikis.fu-berlin.de timed out. (connect timeout=30)'))
+2026-11-02 19:09:11,388 | WARNING | Request failed: https://www.fu-berlin.de/en/studium/bewerbung/Bewerberinfo.html | 404 Client Error: Not Found for url: https://www.fu-berlin.de/en/studium/bewerbung/Bewerberinfo.html
+2026-11-02 19:09:23,878 | WARNING | Request failed: http://www.international.fu-berlin.de/ | HTTPConnectionPool(host='www.international.fu-berlin.de', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='www.international.fu-berlin.de', port=80): Failed to resolve 'www.international.fu-berlin.de' ([Errno -2] Name or service not known)"))
+2026-11-02 19:10:12,689 | WARNING | Request failed: https://stellenticket.fu-berlin.de/en/welcome | 404 Client Error: Not Found for url: https://stellenticket.fu-berlin.de/en/welcome
+2026-11-02 19:10:22,598 | INFO | AFC is enabled with max remote calls: 10.
+2026-11-02 19:10:22,801 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-11-02 19:10:22,802 | ERROR | University failed: Freie Universität Berlin
+Traceback (most recent call last):
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 1036, in run_tracker
+    analysis = analyze_change(
+               ^^^^^^^^^^^^^^^
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 859, in analyze_change
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/models.py", line 6370, in generate_content
+    response = self._generate_content_with_continuation(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/models.py", line 6211, in _generate_content_with_continuation
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/models.py", line 4750, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 2073, in request
+    response = self._request(http_request, http_options, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1849, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 371, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1826, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/errors.py", line 187, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/google/genai/errors.py", line 216, in raise_error
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/get-started).', 'status': 'NOT_FOUND'}}
+2026-11-02 19:10:24,201 | WARNING | Request failed: https://www.lmu.de/en/study/all-degrees-and-programs/international-full-time-students | 404 Client Error: Not Found for url: https://www.lmu.de/en/study/all-degrees-and-programs/international-full-time-students
+2026-11-02 19:10:26,045 | WARNING | Request failed: https://www.tu.berlin/en/studying/international-students | 404 Client Error: Not Found for url: https://www.tu.berlin/en/studying/international-students
