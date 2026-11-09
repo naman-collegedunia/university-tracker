@@ -39946,3 +39946,468 @@ Traceback (most recent call last):
 google.genai.errors.ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}
 2026-11-08 16:17:40,994 | WARNING | Request failed: https://www.lmu.de/en/study/all-degrees-and-programs/international-full-time-students | 404 Client Error: Not Found for url: https://www.lmu.de/en/study/all-degrees-and-programs/international-full-time-students
 2026-11-08 16:17:43,297 | WARNING | Request failed: https://www.tu.berlin/en/studying/international-students | 404 Client Error: Not Found for url: https://www.tu.berlin/en/studying/international-students
+2026-11-09 18:34:43,974 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught/msc-reproduction-and-development | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/study/postgraduate/taught/msc-reproduction-and-development
+2026-11-09 18:36:02,911 | WARNING | Request failed: http://www.bristol.ac.uk/public-relations/logo | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/communications-marketing/logo
+2026-11-09 18:36:13,961 | WARNING | Request failed: http://www.bristol.ac.uk/bclrc | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/bclrc
+2026-11-09 18:36:45,135 | WARNING | Request failed: http://www.bristol.ac.uk/study/outreach/post-16/pathways | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/study/outreach/post-16/pathways
+2026-11-09 18:36:54,326 | WARNING | Request failed: http://www.bristol.ac.uk/languagecentre | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-11-09 18:37:09,228 | WARNING | Request failed: http://www.bristol.ac.uk/conferences-hospitality/film | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/venues/film-and-television/
+2026-11-09 18:38:10,749 | WARNING | Request failed: http://www.bristol.ac.uk/centenary | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/centenary
+2026-11-09 18:38:15,574 | WARNING | Request failed: http://www.bristol.ac.uk/estates | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-11-09 18:38:34,945 | WARNING | Request failed: http://www.bristol.ac.uk/medical-school/hippocrates | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/medical-school/hippocrates
+2026-11-09 18:38:36,809 | WARNING | Request failed: http://www.bristol.ac.uk/caite | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/caite
+2026-11-09 18:38:37,108 | WARNING | Request failed: http://www.bristol.ac.uk/physics/cdtcmp | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/physics/cdtcmp
+2026-11-09 18:38:46,506 | WARNING | Request failed: http://www.bristol.ac.uk/centenary/timeline | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/centenary/timeline
+2026-11-09 18:39:23,804 | WARNING | Request failed: http://www.bristol.ac.uk/university/dates | HTTPSConnectionPool(host='www.bristol.ac.uk', port=443): Read timed out. (read timeout=30)
+2026-11-09 18:40:09,065 | WARNING | Request failed: http://www.bristol.ac.uk/music/CHOMBEC | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/music/CHOMBEC
+2026-11-09 18:41:03,601 | WARNING | Request failed: http://www.bristol.ac.uk/study/undergraduate | HTTPSConnectionPool(host='www.bristol.ac.uk', port=443): Read timed out. (read timeout=30)
+2026-11-09 18:41:08,058 | WARNING | Request failed: http://www.bristol.ac.uk/university/governance/committees.html | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/university/governance/committees.html
+2026-11-09 18:41:22,846 | WARNING | Request failed: http://www.bristol.ac.uk/international/ug-study/erasmus | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/international/ug-study/erasmus
+2026-11-09 18:41:38,268 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/msc-science-communication-for-a-better-planet | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/msc-science-communication-for-a-better-planet
+2026-11-09 18:41:38,632 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/ma-immersive-arts-virtual-and-augmented-reality | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/ma-immersive-arts-virtual-and-augmented-reality
+2026-11-09 18:41:40,705 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/msc-education-mathematics-education | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/msc-education-mathematics-education
+2026-11-09 18:41:42,821 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/research-2025/geographic-data-science | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/research-26/geographic-data-science
+2026-11-09 18:41:43,186 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/ma-law | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/ma-law
+2026-11-09 18:41:45,299 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/research-2025/quantum-information-science-and-technologies | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/research-26/quantum-information-science-and-technologies
+2026-11-09 18:41:48,992 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/pg-diploma-postgraduate-diploma-applied-neuropsychology-online | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/pg-diploma-postgraduate-diploma-applied-neuropsychology-online
+2026-11-09 18:41:49,335 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/research-2025/history | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/research-26/history
+2026-11-09 18:41:51,335 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/msc-cardiovascular-perfusion-online | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/msc-cardiovascular-perfusion-online
+2026-11-09 18:41:53,300 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/research-2025/great-western-four-doctoral-training-partnership-nerc | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/research-26/great-western-four-doctoral-training-partnership-nerc
+2026-11-09 18:41:53,644 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/ma-composition-of-music-for-film-and-television | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/ma-composition-of-music-for-film-and-television
+2026-11-09 18:41:57,318 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/ma-film-and-television | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/ma-film-and-television
+2026-11-09 18:41:57,653 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/research-2025/geographical-sciences-physical-geography | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/research-26/geographical-sciences-physical-geography
+2026-11-09 18:41:57,986 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/research-2025/south-west-biosciences-doctoral-training-partnership-bbsrc | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/research-26/south-west-biosciences-doctoral-training-partnership-bbsrc
+2026-11-09 18:41:58,321 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/msc-social-work-research | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/msc-social-work-research
+2026-11-09 18:42:03,869 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/msc-interpreting | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/msc-interpreting
+2026-11-09 18:42:05,858 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/ma-digital-media-innovation | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/ma-digital-media-innovation
+2026-11-09 18:42:06,191 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/msc-clinical-research-methods-and-evidence-based-medicine | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/msc-clinical-research-methods-and-evidence-based-medicine
+2026-11-09 18:42:06,519 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/pg-certificate-postgraduate-certificate-clinical-neuropsychology-practice | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/pg-certificate-postgraduate-certificate-clinical-neuropsychology-practice
+2026-11-09 18:42:06,855 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/msc-management-marketing | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/msc-management-marketing
+2026-11-09 18:42:07,188 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/mres-education | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/mres-education
+2026-11-09 18:42:12,472 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/research-2025/creative-writing | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/research-26/creative-writing
+2026-11-09 18:42:14,443 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/msc-mathematical-sciences | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/msc-mathematical-sciences
+2026-11-09 18:42:18,139 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/msc-wireless-communications-and-signal-processing | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/msc-wireless-communications-and-signal-processing
+2026-11-09 18:42:18,474 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/llm-law-innovation-and-technology | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/llm-law-innovation-and-technology
+2026-11-09 18:42:18,807 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/research-2025/disability-studies | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/research-26/disability-studies
+2026-11-09 18:42:20,783 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/research-2025/translational-health-sciences | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/research-26/translational-health-sciences
+2026-11-09 18:42:24,434 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/msc-psychology-conversion | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/msc-psychology-conversion
+2026-11-09 18:42:26,420 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/research-2025/health-and-wellbeing | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/research-26/health-and-wellbeing
+2026-11-09 18:42:26,765 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/research-2025/classics-and-ancient-history | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/research-26/classics-and-ancient-history
+2026-11-09 18:42:27,095 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/research-2025/biochemistry | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/research-26/biochemistry
+2026-11-09 18:42:27,429 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/msc-data-science-for-business | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/msc-data-science-for-business
+2026-11-09 18:42:29,403 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/msc-digital-and-technological-society | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/msc-digital-and-technological-society
+2026-11-09 18:42:29,727 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/pg-diploma-postgraduate-diploma-orthodontic-therapy | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/pg-diploma-postgraduate-diploma-orthodontic-therapy
+2026-11-09 18:42:36,663 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/research-2025/innovation-and-entrepreneurship | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/research-26/innovation-and-entrepreneurship
+2026-11-09 18:42:38,630 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/research-2025/italian | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/research-26/italian
+2026-11-09 18:42:38,967 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/ma-creative-writing | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/ma-creative-writing
+2026-11-09 18:42:39,294 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/research-2025/engineering-mathematics | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/research-26/engineering-mathematics
+2026-11-09 18:42:41,292 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/mres-health-sciences-research | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/mres-health-sciences-research
+2026-11-09 18:42:43,299 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/msc-environmental-modelling-and-data-analysis | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/msc-environmental-modelling-and-data-analysis
+2026-11-09 18:42:51,950 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/research-2025/biological-sciences | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/research-26/biological-sciences
+2026-11-09 18:42:53,997 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/msc-clinical-perfusion-science | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/msc-clinical-perfusion-science
+2026-11-09 18:42:54,356 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/pg-certificate-postgraduate-certificate-clinical-perfusion-science | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/pg-certificate-postgraduate-certificate-clinical-perfusion-science
+2026-11-09 18:42:54,713 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/research-2025/sociotechnical-futures-and-digital-methods | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/research-26/sociotechnical-futures-and-digital-methods
+2026-11-09 18:42:55,063 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/research-2025/accounting-and-finance | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/research-26/accounting-and-finance
+2026-11-09 18:42:55,422 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/msc-applied-neuropsychology | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/msc-applied-neuropsychology
+2026-11-09 18:42:59,161 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/msc-palaeobiology | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/msc-palaeobiology
+2026-11-09 18:43:01,212 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/research-2025/education | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/research-26/education
+2026-11-09 18:43:01,581 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/llm-law-environment-sustainability-and-business | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/llm-law-environment-sustainability-and-business
+2026-11-09 18:43:03,631 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/msc-management-project-management | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/msc-management-project-management
+2026-11-09 18:43:03,993 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/llm-law---employment-work-and-equality | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/llm-law---employment-work-and-equality
+2026-11-09 18:43:04,354 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/research-2025/technology-enhanced-chemical-synthesis | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/research-26/technology-enhanced-chemical-synthesis
+2026-11-09 18:43:04,715 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/research-2025/sociology | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/research-26/sociology
+2026-11-09 18:43:10,428 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/msc-economics-finance-and-management | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/msc-economics-finance-and-management
+2026-11-09 18:43:14,302 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/research-2025/philosophy | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/research-26/philosophy
+2026-11-09 18:43:14,671 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/msc-global-health-policy | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/msc-global-health-policy
+2026-11-09 18:43:15,033 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/msc-technology-innovation-and-entrepreneurship | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/msc-technology-innovation-and-entrepreneurship
+2026-11-09 18:43:15,419 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/msc-education-open-pathway | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/msc-education-open-pathway
+2026-11-09 18:43:15,775 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/llm-law---international-law | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/llm-law---international-law
+2026-11-09 18:43:17,849 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/msc-health-professions-education | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/msc-health-professions-education
+2026-11-09 18:43:18,219 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/msc-advanced-composites | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/msc-advanced-composites
+2026-11-09 18:43:18,584 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/pg-diploma-postgraduate-diploma-clinical-neuropsychology | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/pg-diploma-postgraduate-diploma-clinical-neuropsychology
+2026-11-09 18:43:20,649 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/msc-accounting-accountability-and-sustainability | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/msc-accounting-accountability-and-sustainability
+2026-11-09 18:43:21,002 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/msc-economics | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/msc-economics
+2026-11-09 18:43:23,018 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/research-2025/engineering-biology | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/research-26/engineering-biology
+2026-11-09 18:43:26,775 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/research-2025/education-part-time-only | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/research-26/education-part-time-only
+2026-11-09 18:43:27,102 | WARNING | Request failed: https://www.bristol.ac.uk/study/postgraduate/taught-2025/msc-financial-technology-with-data-science | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/aa/csv-imports/postgraduate-study/taught-26/msc-financial-technology-with-data-science
+2026-11-09 18:43:28,457 | INFO | AFC is enabled with max remote calls: 10.
+2026-11-09 18:43:28,688 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-11-09 18:43:28,689 | ERROR | University failed: University of Bristol
+Traceback (most recent call last):
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 1036, in run_tracker
+    analysis = analyze_change(
+               ^^^^^^^^^^^^^^^
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 859, in analyze_change
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/models.py", line 5957, in generate_content
+    response = self._generate_content_with_continuation(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/models.py", line 5798, in _generate_content_with_continuation
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/models.py", line 4346, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 2179, in request
+    response = self._request(http_request, http_options, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1955, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 371, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1932, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/errors.py", line 187, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/errors.py", line 216, in raise_error
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}
+2026-11-09 18:48:17,958 | WARNING | Request failed: https://secretariat.leeds.ac.uk/wp-content/uploads/sites/109/2022/12/whistleblowing_procedure.pdf | 404 Client Error: Not Found for url: https://secretariat.leeds.ac.uk/wp-content/uploads/sites/109/2022/12/whistleblowing_procedure.pdf
+2026-11-09 18:49:14,510 | WARNING | Request failed: https://www.leeds.ac.uk/open-days-and-visits  | 403 Client Error: Forbidden for url: https://www.leeds.ac.uk/open-days-and-visits%20
+2026-11-09 18:50:44,836 | INFO | AFC is enabled with max remote calls: 10.
+2026-11-09 18:50:45,032 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-11-09 18:50:45,032 | ERROR | University failed: University of Leeds
+Traceback (most recent call last):
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 1036, in run_tracker
+    analysis = analyze_change(
+               ^^^^^^^^^^^^^^^
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 859, in analyze_change
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/models.py", line 5957, in generate_content
+    response = self._generate_content_with_continuation(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/models.py", line 5798, in _generate_content_with_continuation
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/models.py", line 4346, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 2179, in request
+    response = self._request(http_request, http_options, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1955, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 371, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1932, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/errors.py", line 187, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/errors.py", line 216, in raise_error
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}
+2026-11-09 18:52:26,406 | WARNING | Request failed: https://mumbai.york.ac.uk/ | HTTPSConnectionPool(host='mumbai.york.ac.uk', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1018)')))
+2026-11-09 18:53:50,746 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/pg-dip-health-economics-professionals-policymakers | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/pg-dip-health-economics-professionals-policymakers/
+2026-11-09 18:53:50,793 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/pgce-geography | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/pgce-geography
+2026-11-09 18:53:50,835 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMBIISBII1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMBIISBII1
+2026-11-09 18:53:50,908 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-public-history | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-public-history
+2026-11-09 18:53:53,750 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-engineering-project-management | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-engineering-project-management
+2026-11-09 18:53:53,787 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-material-culture-experimental-archaeology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-material-culture-experimental-archaeology
+2026-11-09 18:53:53,825 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMECNSECO1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMECNSECO1
+2026-11-09 18:53:53,871 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-global-marketing | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-global-marketing
+2026-11-09 18:53:53,910 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMPHYSFES1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMPHYSFES1
+2026-11-09 18:53:53,947 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-global-culture-society | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-global-culture-society
+2026-11-09 18:53:53,986 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/pgce-physics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/pgce-physics
+2026-11-09 18:53:54,051 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSFUN1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSFUN1
+2026-11-09 18:53:56,973 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMANSINB1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMANSINB1
+2026-11-09 18:53:57,015 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPDLINSTAT1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPDLINSTAT1
+2026-11-09 18:53:57,063 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-economics-finance | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-economics-finance
+2026-11-09 18:53:57,110 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-stained-glass-conservation-heritage-management | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-stained-glass-conservation-heritage-management
+2026-11-09 18:53:57,155 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-social-media-social-research | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-social-media-social-research
+2026-11-09 18:53:57,202 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSIAC1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSIAC1
+2026-11-09 18:53:57,857 | WARNING | Request failed: https://york.ac.uk/study/postgraduate-taught/courses/ma-queer-studies | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-queer-studies
+2026-11-09 18:53:57,884 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-tesol | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-tesol
+2026-11-09 18:53:57,989 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSMCU1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSMCU1
+2026-11-09 18:53:58,028 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPCLANSFSS1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPCLANSFSS1
+2026-11-09 18:53:58,066 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-biotechnology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-biotechnology
+2026-11-09 18:53:58,130 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DUMLAWSJUD3 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DUMLAWSJUD3
+2026-11-09 18:53:58,166 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-health-economics-professionals-policymakers | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-health-economics-professionals-policymakers
+2026-11-09 18:53:58,202 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSMUS1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSMUS1
+2026-11-09 18:53:58,263 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMPHYSBEN1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMPHYSBEN1
+2026-11-09 18:53:58,313 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-sound-film-television-production | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-sound-film-television-production
+2026-11-09 18:53:58,348 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/pgcert-forensic-speech-science | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/pgcert-forensic-speech-science
+2026-11-09 18:53:58,389 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/pgce-mathematics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/pgce-mathematics
+2026-11-09 18:53:58,423 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMANSIBS1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMANSIBS1
+2026-11-09 18:53:58,457 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMANSPPM1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMANSPPM1
+2026-11-09 18:53:58,492 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMGPPSINB1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMGPPSINB1
+2026-11-09 18:53:58,540 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-data-science-human-behaviour | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-data-science-human-behaviour
+2026-11-09 18:53:58,577 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-sustainable-finance | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-sustainable-finance
+2026-11-09 18:53:58,615 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMSUBSLIM1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMSUBSLIM1
+2026-11-09 18:53:58,649 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-developmental-cognitive-neuroscience | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-developmental-cognitive-neuroscience
+2026-11-09 18:53:58,679 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPDHSCSHCD1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPDHSCSHCD1
+2026-11-09 18:53:58,719 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-translation-applied-tech | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-translation-applied-tech
+2026-11-09 18:53:58,764 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-international-business | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-international-business
+2026-11-09 18:53:58,801 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMBIOSARC1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMBIOSARC1
+2026-11-09 18:53:58,840 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMEDUSMWB1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMEDUSMWB1
+2026-11-09 18:53:58,881 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMBIOSBIS1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMBIOSBIS1
+2026-11-09 18:53:58,927 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSROM1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSROM1
+2026-11-09 18:53:58,966 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMPOLSINT1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMPOLSINT1
+2026-11-09 18:53:59,022 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-film-literature | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-film-literature
+2026-11-09 18:55:40,365 | INFO | AFC is enabled with max remote calls: 10.
+2026-11-09 18:55:40,562 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-11-09 18:55:40,563 | ERROR | University failed: University of York
+Traceback (most recent call last):
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 1036, in run_tracker
+    analysis = analyze_change(
+               ^^^^^^^^^^^^^^^
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 859, in analyze_change
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/models.py", line 5957, in generate_content
+    response = self._generate_content_with_continuation(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/models.py", line 5798, in _generate_content_with_continuation
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/models.py", line 4346, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 2179, in request
+    response = self._request(http_request, http_options, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1955, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 371, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1932, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/errors.py", line 187, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/errors.py", line 216, in raise_error
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}
+2026-11-09 19:01:49,346 | INFO | AFC is enabled with max remote calls: 10.
+2026-11-09 19:01:49,564 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-11-09 19:01:49,565 | ERROR | University failed: University of Exeter
+Traceback (most recent call last):
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 1036, in run_tracker
+    analysis = analyze_change(
+               ^^^^^^^^^^^^^^^
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 859, in analyze_change
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/models.py", line 5957, in generate_content
+    response = self._generate_content_with_continuation(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/models.py", line 5798, in _generate_content_with_continuation
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/models.py", line 4346, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 2179, in request
+    response = self._request(http_request, http_options, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1955, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 371, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1932, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/errors.py", line 187, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/errors.py", line 216, in raise_error
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}
+2026-11-09 19:01:50,318 | WARNING | Request failed: https://warwick.ac.uk/study/international/country/india | 404 Client Error:  for url: https://warwick.ac.uk/study/international/country/india/
+2026-11-09 19:02:26,189 | WARNING | Request failed: https://moodle.ucl.ac.uk/ | 403 Client Error: Forbidden for url: https://moodle.ucl.ac.uk/
+2026-11-09 19:04:40,521 | WARNING | Request failed: https://ucl.ac.uk/prospective-students/graduate/taught-degrees/space-science-and-engineering-space-science-msc?utm_term=brahma_profile | 404 Client Error: Not Found for url: https://www.ucl.ac.uk/study/prospective-students/graduate/courses/space-science-and-engineering-space-science-msc?utm_term=brahma_profile
+2026-11-09 19:08:04,729 | WARNING | Request failed: https://www.ucl.ac.uk/hr/intranet-hr | 502 Server Error: Bad Gateway for url: https://www.ucl.ac.uk/hr/intranet-hr
+2026-11-09 19:08:57,919 | INFO | AFC is enabled with max remote calls: 10.
+2026-11-09 19:08:58,111 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-11-09 19:08:58,112 | ERROR | University failed: UCL
+Traceback (most recent call last):
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 1036, in run_tracker
+    analysis = analyze_change(
+               ^^^^^^^^^^^^^^^
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 859, in analyze_change
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/models.py", line 5957, in generate_content
+    response = self._generate_content_with_continuation(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/models.py", line 5798, in _generate_content_with_continuation
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/models.py", line 4346, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 2179, in request
+    response = self._request(http_request, http_options, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1955, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 371, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1932, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/errors.py", line 187, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/errors.py", line 216, in raise_error
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}
+2026-11-09 19:08:58,444 | WARNING | Request failed: https://isc.um.edu.my/ | HTTPSConnectionPool(host='isc.um.edu.my', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='isc.um.edu.my', port=443): Failed to resolve 'isc.um.edu.my' ([Errno -2] Name or service not known)"))
+2026-11-09 19:09:36,254 | WARNING | Request failed: https://www.fu-berlin.de/en/sites/internationalweek/partneruniversitaeten | 404 Client Error: Not Found for url: https://www.fu-berlin.de/en/sites/internationalweek/partneruniversitaeten
+2026-11-09 19:10:08,332 | WARNING | Request failed: https://www.fu-berlin.de/sites/internationalweek/partneruniversitaeten/index.html | 404 Client Error: Not Found for url: https://www.fu-berlin.de/sites/internationalweek/partneruniversitaeten/index.html
+2026-11-09 19:12:16,973 | WARNING | Request failed: https://wikis.fu-berlin.de/display/studying | HTTPSConnectionPool(host='wikis.fu-berlin.de', port=443): Max retries exceeded with url: /display/studying (Caused by ConnectTimeoutError(<HTTPSConnection(host='wikis.fu-berlin.de', port=443) at 0x747a9ed13cd0>, 'Connection to wikis.fu-berlin.de timed out. (connect timeout=30)'))
+2026-11-09 19:14:01,003 | WARNING | Request failed: http://www.international.fu-berlin.de/ | HTTPConnectionPool(host='www.international.fu-berlin.de', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='www.international.fu-berlin.de', port=80): Failed to resolve 'www.international.fu-berlin.de' ([Errno -2] Name or service not known)"))
+2026-11-09 19:14:01,348 | WARNING | Request failed: https://www.fu-berlin.de/en/studium/bewerbung/Bewerberinfo.html | 404 Client Error: Not Found for url: https://www.fu-berlin.de/en/studium/bewerbung/Bewerberinfo.html
+2026-11-09 19:15:44,582 | WARNING | Request failed: https://www.fu-berlin.de/en/sites/abt-1/formulare/index.html | 403 Client Error: Forbidden for url: https://www.fu-berlin.de/en/sites/abt-1/formulare/index.html
+2026-11-09 19:15:44,706 | WARNING | Request failed: https://www.fu-berlin.de/service/zuvdocs/weitere-fu/index.html | 403 Client Error: Forbidden for url: https://www.fu-berlin.de/service/zuvdocs/weitere-fu/index.html
+2026-11-09 19:16:28,874 | WARNING | Request failed: https://wikis.fu-berlin.de/spaces/kum/overview | HTTPSConnectionPool(host='wikis.fu-berlin.de', port=443): Max retries exceeded with url: /spaces/kum/overview (Caused by ConnectTimeoutError(<HTTPSConnection(host='wikis.fu-berlin.de', port=443) at 0x747a9e27c350>, 'Connection to wikis.fu-berlin.de timed out. (connect timeout=30)'))
+2026-11-09 19:16:32,769 | WARNING | Request failed: https://www.fu-berlin.de/service/zuvdocs/fu-rundschreiben/index.html | 403 Client Error: Forbidden for url: https://www.fu-berlin.de/service/zuvdocs/fu-rundschreiben/index.html
+2026-11-09 19:18:22,908 | WARNING | Request failed: https://wikis.fu-berlin.de/spaces/kum/pages/1282837049/Service-Wiki+der+Stabsstelle+Kommunikation+und+Marketing | HTTPSConnectionPool(host='wikis.fu-berlin.de', port=443): Max retries exceeded with url: /spaces/kum/pages/1282837049/Service-Wiki+der+Stabsstelle+Kommunikation+und+Marketing (Caused by ConnectTimeoutError(<HTTPSConnection(host='wikis.fu-berlin.de', port=443) at 0x747a9dd3a790>, 'Connection to wikis.fu-berlin.de timed out. (connect timeout=30)'))
+2026-11-09 19:19:14,316 | WARNING | Request failed: http://wikis.fu-berlin.de/ | HTTPConnectionPool(host='wikis.fu-berlin.de', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='wikis.fu-berlin.de', port=80) at 0x747a9e826c10>, 'Connection to wikis.fu-berlin.de timed out. (connect timeout=30)'))
+2026-11-09 19:22:37,280 | WARNING | Request failed: https://wikis.fu-berlin.de/display/studying/Studying+101+-+A+Simple+Guide+for+Students | HTTPSConnectionPool(host='wikis.fu-berlin.de', port=443): Max retries exceeded with url: /display/studying/Studying+101+-+A+Simple+Guide+for+Students (Caused by ConnectTimeoutError(<HTTPSConnection(host='wikis.fu-berlin.de', port=443) at 0x747a9da5aad0>, 'Connection to wikis.fu-berlin.de timed out. (connect timeout=30)'))
+2026-11-09 19:23:13,199 | WARNING | Request failed: https://www.fu-berlin.de/en/sites/kommunikation/referate/presse/index.html | 404 Client Error: Not Found for url: https://www.fu-berlin.de/en/sites/kommunikation/referate/presse/index.html
+2026-11-09 19:24:03,236 | INFO | AFC is enabled with max remote calls: 10.
+2026-11-09 19:24:03,419 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-11-09 19:24:03,419 | ERROR | University failed: Freie Universität Berlin
+Traceback (most recent call last):
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 1036, in run_tracker
+    analysis = analyze_change(
+               ^^^^^^^^^^^^^^^
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 859, in analyze_change
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/models.py", line 5957, in generate_content
+    response = self._generate_content_with_continuation(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/models.py", line 5798, in _generate_content_with_continuation
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/models.py", line 4346, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 2179, in request
+    response = self._request(http_request, http_options, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1955, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 371, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1932, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/errors.py", line 187, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/errors.py", line 216, in raise_error
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}
+2026-11-09 19:24:04,455 | WARNING | Request failed: https://www.lmu.de/en/study/all-degrees-and-programs/international-full-time-students | 404 Client Error: Not Found for url: https://www.lmu.de/en/study/all-degrees-and-programs/international-full-time-students
+2026-11-09 19:24:05,791 | WARNING | Request failed: https://www.tu.berlin/en/studying/international-students | 404 Client Error: Not Found for url: https://www.tu.berlin/en/studying/international-students
