@@ -42412,3 +42412,831 @@ Traceback (most recent call last):
 google.genai.errors.ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}
 2026-11-14 16:03:44,171 | WARNING | Request failed: https://www.lmu.de/en/study/all-degrees-and-programs/international-full-time-students | 404 Client Error: Not Found for url: https://www.lmu.de/en/study/all-degrees-and-programs/international-full-time-students
 2026-11-14 16:03:46,003 | WARNING | Request failed: https://www.tu.berlin/en/studying/international-students | 404 Client Error: Not Found for url: https://www.tu.berlin/en/studying/international-students
+2026-11-15 15:31:43,860 | WARNING | Request failed: https://www.bristol.ac.uk/index/x | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-11-15 15:34:42,729 | WARNING | Request failed: http://www.bristol.ac.uk/conferences-hospitality/film | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/venues/film-and-television/
+2026-11-15 15:34:45,474 | WARNING | Request failed: http://www.bristol.ac.uk/bclrc | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/bclrc
+2026-11-15 15:34:52,827 | WARNING | Request failed: http://www.bristol.ac.uk/physics/cdtcmp | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/physics/cdtcmp
+2026-11-15 15:34:59,488 | WARNING | Request failed: http://www.bristol.ac.uk/centenary/timeline | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/centenary/timeline
+2026-11-15 15:35:18,946 | WARNING | Request failed: http://www.bristol.ac.uk/public-relations/logo | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/communications-marketing/logo
+2026-11-15 15:35:34,069 | WARNING | Request failed: http://www.bristol.ac.uk/media | 403 Client Error: Forbidden for url: https://www.bristol.ac.uk/media/
+2026-11-15 15:36:36,073 | WARNING | Request failed: http://www.bristol.ac.uk/biology/research/transcriptomics | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/biology/research/transcriptomics
+2026-11-15 15:36:36,427 | WARNING | Request failed: http://www.bristol.ac.uk/physics/research/iac | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/physics/research/iac
+2026-11-15 15:36:43,650 | WARNING | Request failed: http://www.bristol.ac.uk/Depts/SiteServices/portering.html | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/staff/a-z/
+2026-11-15 15:37:17,278 | WARNING | Request failed: http://www.bristol.ac.uk/medical-school/hippocrates | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/medical-school/hippocrates
+2026-11-15 15:37:17,646 | WARNING | Request failed: http://www.bristol.ac.uk/nightline | HTTPConnectionPool(host='www.ubu.org.uk', port=80): Max retries exceeded with url: /justask/nightline/ (Caused by NameResolutionError("HTTPConnection(host='www.ubu.org.uk', port=80): Failed to resolve 'www.ubu.org.uk' ([Errno -2] Name or service not known)"))
+2026-11-15 15:37:24,420 | WARNING | Request failed: http://www.bristol.ac.uk/university/governance/committees.html | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/university/governance/committees.html
+2026-11-15 15:37:43,054 | WARNING | Request failed: http://www.bristol.ac.uk/study/outreach/post-16/pathways | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/study/outreach/post-16/pathways
+2026-11-15 15:37:45,691 | WARNING | Request failed: http://www.bristol.ac.uk/library/support/findinginfo/plagiarism | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/library/support/findinginfo/plagiarism
+2026-11-15 15:37:55,814 | WARNING | Request failed: http://www.bristol.ac.uk/philosophy/department/centre | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/philosophy/department/centre
+2026-11-15 15:39:07,652 | WARNING | Request failed: http://www.bristol.ac.uk/faculties/deans.html | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/faculties/deans.html
+2026-11-15 15:39:16,853 | WARNING | Request failed: http://www.bristol.ac.uk/medical-school/research/biobank | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/medical-school/research/biobank
+2026-11-15 15:39:17,595 | WARNING | Request failed: http://www.bristol.ac.uk/education/enterprise/docsum | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/education/expertiseandresources/dss/
+2026-11-15 15:39:26,465 | WARNING | Request failed: http://www.bristol.ac.uk/library/support/research/open-access.html | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/library/support/research/open-access.html
+2026-11-15 15:39:31,463 | WARNING | Request failed: http://www.bristol.ac.uk/law/aboutus/law-activities/innocenceproject/index.html | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/law/aboutus/law-activities/innocenceproject/index.html
+2026-11-15 15:39:47,833 | WARNING | Request failed: http://www.bristol.ac.uk/red | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-11-15 15:40:17,007 | WARNING | Request failed: http://www.bristol.ac.uk/sraa/uk-student-recruitment | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/sraa/uk-student-recruitment
+2026-11-15 15:42:06,802 | WARNING | Request failed: http://www.bristol.ac.uk/centenary | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/centenary
+2026-11-15 15:42:33,423 | WARNING | Request failed: http://www.bristol.ac.uk/caite | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/caite
+2026-11-15 15:42:43,602 | WARNING | Request failed: http://www.bristol.ac.uk/events/details/colloquia.html | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/events/details/colloquia.html
+2026-11-15 15:42:57,013 | WARNING | Request failed: http://www.bristol.ac.uk/music/CHOMBEC | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/music/CHOMBEC
+2026-11-15 15:43:59,954 | WARNING | Request failed: http://www.bristol.ac.uk/media/experts | 403 Client Error: Forbidden for url: https://research-information.bris.ac.uk/en/persons/
+2026-11-15 15:44:00,881 | WARNING | Request failed: http://www.bristol.ac.uk/ceas | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/spais/research/ceas/
+2026-11-15 15:44:10,242 | WARNING | Request failed: http://www.bristol.ac.uk/international/ug-study/erasmus | 404 Client Error: Not Found for url: https://www.bristol.ac.uk/international/ug-study/erasmus
+2026-11-15 15:46:49,718 | WARNING | Request failed: https://www.bristol.ac.uk/jobs/apprenticeships-and-employment-outreach | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-11-15 15:46:50,320 | WARNING | Request failed: https://www.bristol.ac.uk/jobs/contacts | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-11-15 15:48:03,720 | WARNING | Request failed: https://www.bristol.ac.uk/staff/researchers/data | HTTPSConnectionPool(host='www.bristol.ac.uk', port=443): Read timed out. (read timeout=30)
+2026-11-15 15:48:53,583 | WARNING | Request failed: https://global-lounge.bristol.ac.uk/event-passport | 429 Client Error: Too Many Requests for url: https://global-lounge.bristol.ac.uk/event-passport/
+2026-11-15 15:48:53,728 | WARNING | Request failed: https://global-lounge.bristol.ac.uk/blogs | 429 Client Error: Too Many Requests for url: https://global-lounge.bristol.ac.uk/blogs
+2026-11-15 15:48:53,873 | WARNING | Request failed: https://global-lounge.bristol.ac.uk/opening-hours-weekly | 429 Client Error: Too Many Requests for url: https://global-lounge.bristol.ac.uk/opening-hours-weekly
+2026-11-15 15:48:54,018 | WARNING | Request failed: https://global-lounge.bristol.ac.uk/grow-your-skills | 429 Client Error: Too Many Requests for url: https://global-lounge.bristol.ac.uk/grow-your-skills
+2026-11-15 15:48:54,162 | WARNING | Request failed: https://global-lounge.bristol.ac.uk/testimonials | 429 Client Error: Too Many Requests for url: https://global-lounge.bristol.ac.uk/testimonials
+2026-11-15 15:48:54,307 | WARNING | Request failed: https://global-lounge.bristol.ac.uk/meet-the-team | 429 Client Error: Too Many Requests for url: https://global-lounge.bristol.ac.uk/meet-the-team
+2026-11-15 15:48:54,452 | WARNING | Request failed: https://global-lounge.bristol.ac.uk/language-cafe | 429 Client Error: Too Many Requests for url: https://global-lounge.bristol.ac.uk/language-cafe
+2026-11-15 15:48:54,597 | WARNING | Request failed: https://global-lounge.bristol.ac.uk/global-lounge-friday-hangouts | 429 Client Error: Too Many Requests for url: https://global-lounge.bristol.ac.uk/global-lounge-friday-hangouts
+2026-11-15 15:48:54,741 | WARNING | Request failed: https://global-lounge.bristol.ac.uk/welcome-programme | 429 Client Error: Too Many Requests for url: https://global-lounge.bristol.ac.uk/welcome-programme
+2026-11-15 15:48:56,082 | WARNING | Request failed: https://global-lounge.bristol.ac.uk/global-lounge-ambassador-scheme | 429 Client Error: Too Many Requests for url: https://global-lounge.bristol.ac.uk/global-lounge-ambassador-scheme/
+2026-11-15 15:48:56,227 | WARNING | Request failed: https://global-lounge.bristol.ac.uk/events | 429 Client Error: Too Many Requests for url: https://global-lounge.bristol.ac.uk/events
+2026-11-15 15:48:56,371 | WARNING | Request failed: https://global-lounge.bristol.ac.uk/newsletter-sign-up | 429 Client Error: Too Many Requests for url: https://global-lounge.bristol.ac.uk/newsletter-sign-up
+2026-11-15 15:48:56,516 | WARNING | Request failed: https://global-lounge.bristol.ac.uk/get-involved | 429 Client Error: Too Many Requests for url: https://global-lounge.bristol.ac.uk/get-involved
+2026-11-15 15:48:57,622 | WARNING | Request failed: https://globallounge.blogs.bristol.ac.uk/events | 429 Client Error: Too Many Requests for url: https://global-lounge.bristol.ac.uk/events
+2026-11-15 15:48:57,766 | WARNING | Request failed: https://global-lounge.bristol.ac.uk/2024/07/29/spring-events-2024 | 429 Client Error: Too Many Requests for url: https://global-lounge.bristol.ac.uk/2024/07/29/spring-events-2024
+2026-11-15 15:51:04,395 | INFO | AFC is enabled with max remote calls: 10.
+2026-11-15 15:51:04,639 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-11-15 15:51:04,640 | ERROR | University failed: University of Bristol
+Traceback (most recent call last):
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 1036, in run_tracker
+    analysis = analyze_change(
+               ^^^^^^^^^^^^^^^
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 859, in analyze_change
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/models.py", line 6052, in generate_content
+    response = self._generate_content_with_continuation(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/models.py", line 5893, in _generate_content_with_continuation
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/models.py", line 4441, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 2179, in request
+    response = self._request(http_request, http_options, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1955, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 371, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1932, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/errors.py", line 187, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/errors.py", line 216, in raise_error
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}
+2026-11-15 15:55:09,657 | WARNING | Request failed: https://www.leeds.ac.uk/rss/news | 404 Client Error: Not Found for url: https://www.leeds.ac.uk/rss/news
+2026-11-15 15:55:30,486 | WARNING | Request failed: https://mymedia.leeds.ac.uk/ | HTTPSConnectionPool(host='mymedia.leeds.ac.uk', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='mymedia.leeds.ac.uk', port=443): Failed to resolve 'mymedia.leeds.ac.uk' ([Errno -2] Name or service not known)"))
+2026-11-15 15:56:59,324 | WARNING | Request failed: https://www.alumni.leeds.ac.uk/ | HTTPSConnectionPool(host='www.alumni.leeds.ac.uk', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.alumni.leeds.ac.uk', port=443) at 0x79d9b8942450>, 'Connection to www.alumni.leeds.ac.uk timed out. (connect timeout=30)'))
+2026-11-15 15:57:17,290 | WARNING | Request failed: https://www.llc.leeds.ac.uk/ | HTTPSConnectionPool(host='www.llc.leeds.ac.uk', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.llc.leeds.ac.uk'. (_ssl.c:1018)")))
+2026-11-15 15:59:22,149 | WARNING | Request failed: https://www.leeds.ac.uk/secretariat/documents/academic_misconduct_in_research.pdf | 404 Client Error: Not Found for url: https://www.leeds.ac.uk/secretariat/documents/academic_misconduct_in_research.pdf
+2026-11-15 15:59:56,329 | WARNING | Request failed: https://students.leeds.ac.uk/localtransport | 404 Client Error: Not Found for url: https://students.leeds.ac.uk/localtransport
+2026-11-15 16:03:44,221 | WARNING | Request failed: https://equality.leeds.ac.uk/support-and-resources/disability-2/using-the-rnib-uol-transcription-centre | 404 Client Error: Not Found for url: https://equality.leeds.ac.uk/support-and-resources/disability-2/using-the-rnib-uol-transcription-centre
+2026-11-15 16:04:07,563 | WARNING | Request failed: http://www.leeds.ac.uk/secretariat/documents/ipr_policy.pdf | 404 Client Error: Not Found for url: https://www.leeds.ac.uk:443/secretariat/documents/ipr_policy.pdf
+2026-11-15 16:04:38,612 | WARNING | Request failed: http://www.leeds.ac.uk/secretariat/charter.html | 404 Client Error: Not Found for url: https://www.leeds.ac.uk:443/secretariat/charter.html
+2026-11-15 16:04:43,678 | WARNING | Request failed: https://secretariat.leeds.ac.uk/corporate-governance/main-university-committees/council | 404 Client Error: Not Found for url: https://secretariat.leeds.ac.uk/corporate-governance/main-university-committees/council
+2026-11-15 16:05:02,957 | WARNING | Request failed: https://equality.leeds.ac.uk/?page_id=13480 | 404 Client Error: Not Found for url: https://equality.leeds.ac.uk/?page_id=13480
+2026-11-15 16:05:30,584 | WARNING | Request failed: https://equality.leeds.ac.uk/support-and-resources/becoming-an-active-bystander | 429 Client Error: Too Many Requests for url: https://equality.leeds.ac.uk/support-and-resources/becoming-an-active-bystander
+2026-11-15 16:05:30,650 | WARNING | Request failed: https://equality.leeds.ac.uk/support-and-resources/guidance-to-support-trans-staff-and-students | 429 Client Error: Too Many Requests for url: https://equality.leeds.ac.uk/support-and-resources/guidance-to-support-trans-staff-and-students
+2026-11-15 16:05:30,711 | WARNING | Request failed: https://equality.leeds.ac.uk/governance_strategy_policy/race-equality-charter | 429 Client Error: Too Many Requests for url: https://equality.leeds.ac.uk/governance_strategy_policy/race-equality-charter
+2026-11-15 16:05:30,774 | WARNING | Request failed: https://equality.leeds.ac.uk/equality-inclusion-module/equity-in-leadership-programme | 429 Client Error: Too Many Requests for url: https://equality.leeds.ac.uk/equality-inclusion-module/equity-in-leadership-programme
+2026-11-15 16:05:30,827 | WARNING | Request failed: https://equality.leeds.ac.uk/cdn-cgi/l/email-protection | 404 Client Error: Not Found for url: https://equality.leeds.ac.uk/cdn-cgi/l/email-protection
+2026-11-15 16:05:30,851 | WARNING | Request failed: https://equality.leeds.ac.uk/support-and-resources/disability-support-for-staff | 429 Client Error: Too Many Requests for url: https://equality.leeds.ac.uk/support-and-resources/disability-support-for-staff
+2026-11-15 16:05:30,902 | WARNING | Request failed: https://equality.leeds.ac.uk/?page_id=15638 | 429 Client Error: Too Many Requests for url: https://equality.leeds.ac.uk/?page_id=15638
+2026-11-15 16:07:32,772 | INFO | AFC is enabled with max remote calls: 10.
+2026-11-15 16:07:33,009 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-11-15 16:07:33,009 | ERROR | University failed: University of Leeds
+Traceback (most recent call last):
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 1036, in run_tracker
+    analysis = analyze_change(
+               ^^^^^^^^^^^^^^^
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 859, in analyze_change
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/models.py", line 6052, in generate_content
+    response = self._generate_content_with_continuation(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/models.py", line 5893, in _generate_content_with_continuation
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/models.py", line 4441, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 2179, in request
+    response = self._request(http_request, http_options, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1955, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 371, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1932, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/errors.py", line 187, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/errors.py", line 216, in raise_error
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}
+2026-11-15 16:11:49,104 | WARNING | Request failed: https://pure.york.ac.uk/portal/en | 403 Client Error: Forbidden for url: https://pure.york.ac.uk/portal/en/
+2026-11-15 16:12:33,176 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-victorian-literature-culture | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-victorian-literature-culture
+2026-11-15 16:12:33,235 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-neuroscience-mental-health | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-neuroscience-mental-health
+2026-11-15 16:12:34,033 | WARNING | Request failed: https://www.york.ac.uk/language/postgraduate/taught/linguistics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-linguistics/
+2026-11-15 16:12:34,082 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMPHYSFES1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMPHYSFES1
+2026-11-15 16:12:34,124 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-cyber-security | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-cyber-security
+2026-11-15 16:12:34,162 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-early-prehistory-human-origins | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-early-prehistory-human-origins
+2026-11-15 16:12:34,204 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMHISSMDH1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMHISSMDH1
+2026-11-15 16:12:34,250 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMHOASMAM1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMHOASMAM1
+2026-11-15 16:12:34,290 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-psycholinguistics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-psycholinguistics
+2026-11-15 16:12:34,345 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMANSISM1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMANSISM1
+2026-11-15 16:12:34,391 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/pgdip-translation-applied-tech | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/pgdip-translation-applied-tech
+2026-11-15 16:12:34,430 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMSOCSSMR1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMSOCSSMR1
+2026-11-15 16:12:34,471 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-ai-for-the-creative-industries | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-ai-for-the-creative-industries
+2026-11-15 16:12:34,517 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-financial-engineering | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-financial-engineering
+2026-11-15 16:12:34,569 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-sound-film-television-production | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-sound-film-television-production
+2026-11-15 16:12:34,619 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMEDUSTES1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMEDUSTES1
+2026-11-15 16:12:34,676 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-music-composition | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-music-composition
+2026-11-15 16:12:34,725 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-literature-creative-cultural-industries | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-literature-creative-cultural-industries
+2026-11-15 16:12:34,774 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMATSFIE1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMATSFIE1
+2026-11-15 16:12:34,807 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-international-relations-global-ethics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-international-relations-global-ethics
+2026-11-15 16:12:34,843 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-bioinformatics-with-bioenterprise | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-bioinformatics-with-bioenterprise
+2026-11-15 16:12:34,898 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMANSIBS1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMANSIBS1
+2026-11-15 16:12:34,947 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ai-llm | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ai-llm
+2026-11-15 16:12:34,989 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSMED1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSMED1
+2026-11-15 16:12:35,026 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMFTVSSNA1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMFTVSSNA1
+2026-11-15 16:12:35,067 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMELESEPM1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMELESEPM1
+2026-11-15 16:12:35,116 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-global-marketing | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-global-marketing
+2026-11-15 16:12:35,160 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMLINSPSL1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMLINSPSL1
+2026-11-15 16:12:35,207 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMUSSMGY1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMUSSMGY1
+2026-11-15 16:12:35,277 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/pgce-geography | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/pgce-geography
+2026-11-15 16:12:35,320 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPDHTHSHAN1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPDHTHSHAN1
+2026-11-15 16:12:35,414 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-digital-design-social-media | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-digital-design-social-media
+2026-11-15 16:12:35,459 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMHISSSTU1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMHISSSTU1
+2026-11-15 16:12:35,517 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMATSMAT1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMATSMAT1
+2026-11-15 16:12:35,563 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-digital-heritage | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-digital-heritage
+2026-11-15 16:12:35,607 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/pgcert-health-sciences | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/pgcert-health-sciences
+2026-11-15 16:12:35,680 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-eighteenth-century-studies | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-eighteenth-century-studies
+2026-11-15 16:12:35,738 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses-january/msc-nursing-adult | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses-january/msc-nursing-adult
+2026-11-15 16:12:35,783 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMSTSMST1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMSTSMST1
+2026-11-15 16:12:35,835 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSMCE1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSMCE1
+2026-11-15 16:12:35,878 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMVFTSVFT1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMVFTSVFT1
+2026-11-15 16:12:35,924 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSHIB1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSHIB1
+2026-11-15 16:12:35,968 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMPOLSINT1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMPOLSINT1
+2026-11-15 16:12:36,012 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-management-creative-cultural-industries | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-management-creative-cultural-industries
+2026-11-15 16:12:36,071 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-mental-health-research | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-mental-health-research
+2026-11-15 16:12:36,121 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMENGSLRP1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMENGSLRP1
+2026-11-15 16:12:36,180 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMAHRSAHR1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMAHRSAHR1
+2026-11-15 16:12:36,221 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-music-musicology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-music-musicology
+2026-11-15 16:12:36,263 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-environmental-science-management | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-environmental-science-management
+2026-11-15 16:12:36,296 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-renaissance-literature | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-renaissance-literature
+2026-11-15 16:12:36,336 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-stained-glass-conservation-heritage-management | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-stained-glass-conservation-heritage-management
+2026-11-15 16:12:36,378 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-education | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-education
+2026-11-15 16:12:36,453 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-music-composition-film-television | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-music-composition-film-television
+2026-11-15 16:12:36,555 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-political-theory | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-political-theory
+2026-11-15 16:12:36,600 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPCLANSFSS1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPCLANSFSS1
+2026-11-15 16:12:36,657 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-conservation-studies | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-conservation-studies
+2026-11-15 16:12:36,716 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-health-research | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-health-research
+2026-11-15 16:12:36,788 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-artificial-intelligence | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-artificial-intelligence
+2026-11-15 16:12:38,792 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-history-of-art-medieval | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-history-of-art-medieval
+2026-11-15 16:12:38,868 | WARNING | Request failed: http://www.york.ac.uk/study/postgraduate-taught/courses/pgcert-health-research-and-statistics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/pgcert-health-research-and-statistics
+2026-11-15 16:12:38,912 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-finance-investments | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-finance-investments
+2026-11-15 16:12:38,961 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-management | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-management
+2026-11-15 16:12:39,000 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-history-of-art-fashion-history | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-history-of-art-fashion-history
+2026-11-15 16:12:39,039 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPCENVSGCC1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPCENVSGCC1
+2026-11-15 16:12:39,246 | WARNING | Request failed: https://www.york.ac.uk/english/postgraduate/taught-ma/romantic | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-literature-romantic-period/
+2026-11-15 16:12:39,292 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/pgcert-forensic-speech-science | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/pgcert-forensic-speech-science
+2026-11-15 16:12:39,343 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-roman-archaeology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-roman-archaeology
+2026-11-15 16:12:39,392 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMREMSREM1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMREMSREM1
+2026-11-15 16:12:41,109 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-human-centred-interactive-technologies | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-human-centred-interactive-technologies
+2026-11-15 16:12:41,159 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/pgdip-global-climate-challenges | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/pgdip-global-climate-challenges
+2026-11-15 16:12:41,199 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-applied-human-rights | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-applied-human-rights
+2026-11-15 16:12:41,244 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-editing-film-television-production | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-editing-film-television-production
+2026-11-15 16:12:41,300 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-mesolithic-archaeology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-mesolithic-archaeology
+2026-11-15 16:12:41,338 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMHPESBLY1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMHPESBLY1
+2026-11-15 16:12:41,381 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-sustainability-science | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-sustainability-science
+2026-11-15 16:12:41,421 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSFLD1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSFLD1
+2026-11-15 16:12:41,451 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/pgce-primary-3-11 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/pgce-primary-3-11
+2026-11-15 16:12:41,498 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPCHTHSHAN1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPCHTHSHAN1
+2026-11-15 16:12:41,547 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/pgdip-advanced-clinical-practice | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/pgdip-advanced-clinical-practice
+2026-11-15 16:12:41,590 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMPSYSDDC1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMPSYSDDC1
+2026-11-15 16:12:41,636 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMPSYSNEU1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMPSYSNEU1
+2026-11-15 16:12:41,676 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-engineering-project-management | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-engineering-project-management
+2026-11-15 16:12:41,718 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMHSCSHCM1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMHSCSHCM1
+2026-11-15 16:12:41,756 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPDMHRSMHR1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPDMHRSMHR1
+2026-11-15 16:12:41,787 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-peace-and-conflict-studies | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-peace-and-conflict-studies
+2026-11-15 16:12:41,829 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-renewable-energy-technologies | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-renewable-energy-technologies
+2026-11-15 16:12:41,875 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-health-economics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-health-economics
+2026-11-15 16:12:41,928 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMANSINB1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMANSINB1
+2026-11-15 16:12:41,966 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-fusion-energy-science-technologies | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-fusion-energy-science-technologies
+2026-11-15 16:12:42,010 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMUSSPAC1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMUSSPAC1
+2026-11-15 16:12:42,052 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMHEASMNH2 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMHEASMNH2
+2026-11-15 16:12:42,092 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMUSSMVS1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMUSSMVS1
+2026-11-15 16:12:42,133 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-global-public-policy-international-business | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-global-public-policy-international-business
+2026-11-15 16:12:42,179 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMHCISHCI1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMHCISHCI1
+2026-11-15 16:12:42,225 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-health-sciences | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-health-sciences
+2026-11-15 16:12:42,272 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-tesol | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-tesol
+2026-11-15 16:12:42,320 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-mathematical-finance | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-mathematical-finance
+2026-11-15 16:12:42,360 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-digital-archaeology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-digital-archaeology
+2026-11-15 16:12:42,392 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-historical-studies | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-historical-studies
+2026-11-15 16:12:42,432 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-international-relations-human-rights | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-international-relations-human-rights
+2026-11-15 16:12:42,478 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-finance-management | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-finance-management
+2026-11-15 16:12:42,510 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/pgce-modern-languages-german | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/pgce-modern-languages-german
+2026-11-15 16:12:42,542 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPCMATSFIO1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPCMATSFIO1
+2026-11-15 16:12:42,582 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-data-science-scientific | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-data-science-scientific
+2026-11-15 16:12:42,627 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-sustainable-built-heritage | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-sustainable-built-heritage
+2026-11-15 16:12:42,661 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-economics-public-policy | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-economics-public-policy
+2026-11-15 16:12:42,725 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMFTVSPRD1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMFTVSPRD1
+2026-11-15 16:12:42,757 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/pgdip-forensic-speech-science | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/pgdip-forensic-speech-science
+2026-11-15 16:12:42,809 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/mpp-global-public-health-policy | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/mpp-global-public-health-policy
+2026-11-15 16:12:42,855 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMENGSFAL1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMENGSFAL1
+2026-11-15 16:12:42,912 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-social-media-social-research | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-social-media-social-research
+2026-11-15 16:12:42,941 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-education-leadership-management | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-education-leadership-management
+2026-11-15 16:12:42,991 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-material-culture-experimental-archaeology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-material-culture-experimental-archaeology
+2026-11-15 16:12:43,046 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-material-culture-experimental-archaeology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-material-culture-experimental-archaeology
+2026-11-15 16:12:43,103 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMANSAAF1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMANSAAF1
+2026-11-15 16:12:43,157 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-music-management-marketing | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-music-management-marketing
+2026-11-15 16:12:43,201 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMUSSCFT1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMUSSCFT1
+2026-11-15 16:12:43,237 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMPSYSPED1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMPSYSPED1
+2026-11-15 16:12:43,301 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-leadership-criminal-justice | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-leadership-criminal-justice
+2026-11-15 16:12:44,035 | WARNING | Request failed: https://york.ac.uk/study/postgraduate-taught/courses/msc-business-analytics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-business-analytics
+2026-11-15 16:12:44,080 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-contemporary-history-international-politics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-contemporary-history-international-politics
+2026-11-15 16:12:44,128 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-entrepreneurship-and-innovation | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-entrepreneurship-and-innovation
+2026-11-15 16:12:44,161 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-econometrics-economics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-econometrics-economics
+2026-11-15 16:12:44,204 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-history-of-art-curating | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-history-of-art-curating
+2026-11-15 16:12:44,246 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-women-violence-and-conflict | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-women-violence-and-conflict
+2026-11-15 16:12:44,304 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/graduate-diploma-law | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/graduate-diploma-law
+2026-11-15 16:12:44,358 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/pgcert-social-research | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/pgcert-social-research
+2026-11-15 16:12:44,403 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMAINSTEL1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMAINSTEL1
+2026-11-15 16:12:44,439 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DGDLAWSLAW1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DGDLAWSLAW1
+2026-11-15 16:12:44,478 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMHRSMHR1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMHRSMHR1
+2026-11-15 16:12:44,526 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMUSSMPI1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMUSSMPI1
+2026-11-15 16:12:44,555 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-music-performance-management | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-music-performance-management
+2026-11-15 16:12:44,605 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMBIOSBTC1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMBIOSBTC1
+2026-11-15 16:12:44,644 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-music-education | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-music-education
+2026-11-15 16:12:44,687 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMDEMSGME1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMDEMSGME1
+2026-11-15 16:12:44,731 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMHISSMED1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMHISSMED1
+2026-11-15 16:12:44,762 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/pgcert-interpreting-translation-applied-tech | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/pgcert-interpreting-translation-applied-tech
+2026-11-15 16:12:44,812 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/pgdip-safety-critical-systems-engineering | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/pgdip-safety-critical-systems-engineering
+2026-11-15 16:12:44,855 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-early-prehistory-human-origins | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-early-prehistory-human-origins
+2026-11-15 16:12:44,888 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-forensic-speech-science | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-forensic-speech-science
+2026-11-15 16:12:44,920 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-leadership-management-ai | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-leadership-management-ai
+2026-11-15 16:12:44,967 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-advanced-clinical-practice | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-advanced-clinical-practice
+2026-11-15 16:12:45,009 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-mathematical-sciences | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-mathematical-sciences
+2026-11-15 16:12:45,053 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPCSRESCSS1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPCSRESCSS1
+2026-11-15 16:12:45,094 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-data-science-human-behaviour | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-data-science-human-behaviour
+2026-11-15 16:12:45,136 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-social-media-interactive-technology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-social-media-interactive-technology
+2026-11-15 16:12:45,175 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-education-mental-health-wellbeing | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-education-mental-health-wellbeing
+2026-11-15 16:12:45,206 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-accounting-finance | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-accounting-finance
+2026-11-15 16:12:45,252 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMCISMCI1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMCISMCI1
+2026-11-15 16:12:45,296 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/mpa-international-development | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/mpa-international-development
+2026-11-15 16:12:45,342 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMHEASADL2 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMHEASADL2
+2026-11-15 16:12:45,376 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-data-science-ai-statistics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-data-science-ai-statistics
+2026-11-15 16:12:45,422 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-economics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-economics
+2026-11-15 16:12:45,475 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMPSYSPMH1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMPSYSPMH1
+2026-11-15 16:12:45,511 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMTHESMAK1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMTHESMAK1
+2026-11-15 16:12:45,552 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/pgcert-global-climate-challenges | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/pgcert-global-climate-challenges
+2026-11-15 16:12:45,584 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMPOLSTHE1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMPOLSTHE1
+2026-11-15 16:12:45,628 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/pgce-primary | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/pgce-primary
+2026-11-15 16:12:45,673 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-public-policy-management | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-public-policy-management
+2026-11-15 16:12:45,716 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMCASSPER2 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMCASSPER2
+2026-11-15 16:12:45,763 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMTFTSDID1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMTFTSDID1
+2026-11-15 16:12:45,808 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSHHO1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSHHO1
+2026-11-15 16:12:45,861 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/header-dplv2 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/header-dplv2
+2026-11-15 16:12:45,905 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-digital-design | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-digital-design
+2026-11-15 16:12:45,946 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMHOASARC1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMHOASARC1
+2026-11-15 16:12:45,994 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/pg-dip-health-economics-professionals-policymakers | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/pg-dip-health-economics-professionals-policymakers
+2026-11-15 16:12:46,039 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-statistics-and-computational-finance | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-statistics-and-computational-finance
+2026-11-15 16:12:47,691 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-music-education-group-teaching | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-music-education-group-teaching
+2026-11-15 16:12:47,731 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMHISSPUB1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMHISSPUB1
+2026-11-15 16:12:48,080 | WARNING | Request failed: http://york.ac.uk/study/postgraduate-taught/courses/msc-bioarchaeology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-bioarchaeology
+2026-11-15 16:12:48,128 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMBIOSBIS1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMBIOSBIS1
+2026-11-15 16:12:48,166 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-international-humanitarian-affairs-online | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-international-humanitarian-affairs-online
+2026-11-15 16:12:48,208 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-bioinformatics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-bioinformatics
+2026-11-15 16:12:48,398 | WARNING | Request failed: http://york.ac.uk/study/postgraduate-taught/courses/msc-engineering-management | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-engineering-management
+2026-11-15 16:12:48,441 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-biotechnology-bioenterprise | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-biotechnology-bioenterprise
+2026-11-15 16:12:48,484 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DUMLAWSJUD3 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DUMLAWSJUD3
+2026-11-15 16:12:48,517 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-museum-studies | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-museum-studies
+2026-11-15 16:12:48,996 | WARNING | Request failed: https://www.york.ac.uk/psychology/prospective/postgraduate/taught/cns | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-cognitive-neuroscience/
+2026-11-15 16:12:49,039 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMFINSMAN1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMFINSMAN1
+2026-11-15 16:12:49,081 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-music-performance-instrumental-studies | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-music-performance-instrumental-studies
+2026-11-15 16:12:49,115 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-digital-media-and-culture | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-digital-media-and-culture
+2026-11-15 16:12:49,160 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-historic-buildings | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-historic-buildings
+2026-11-15 16:12:49,211 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-medieval-literatures-languages | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-medieval-literatures-languages
+2026-11-15 16:12:49,256 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-safety-critical-systems-engineering | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-safety-critical-systems-engineering
+2026-11-15 16:12:49,289 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMEDUSMWB1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMEDUSMWB1
+2026-11-15 16:12:49,325 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-funerary-archaeology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-funerary-archaeology
+2026-11-15 16:12:49,855 | WARNING | Request failed: https://www.york.ac.uk/maths/postgraduate/pg-taught-courses/msc-mathematical-finance-distance-learning | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-mathematical-finance-online/
+2026-11-15 16:12:49,887 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPDMATSFIO1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPDMATSFIO1
+2026-11-15 16:12:49,934 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMCOMSCOM1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMCOMSCOM1
+2026-11-15 16:12:49,979 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMPOLSIRG1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMPOLSIRG1
+2026-11-15 16:12:50,022 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSDIG1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSDIG1
+2026-11-15 16:12:50,068 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-community-music | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-community-music
+2026-11-15 16:12:50,112 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-field-archaeology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-field-archaeology
+2026-11-15 16:12:50,144 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMHOASFAH1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMHOASFAH1
+2026-11-15 16:12:50,183 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPDLINSTAT1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPDLINSTAT1
+2026-11-15 16:12:50,214 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMBIOSARC1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMBIOSARC1
+2026-11-15 16:12:50,254 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-producing-film-television | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-producing-film-television
+2026-11-15 16:12:50,307 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-biomedical-sciences | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-biomedical-sciences
+2026-11-15 16:12:50,350 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-human-resource-management | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-human-resource-management
+2026-11-15 16:12:50,392 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMBIOSBIE1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMBIOSBIE1
+2026-11-15 16:12:50,438 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-international-political-economy | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-international-political-economy
+2026-11-15 16:12:50,487 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMHISSEMH1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMHISSEMH1
+2026-11-15 16:12:50,522 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMPOLSIRH1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMPOLSIRH1
+2026-11-15 16:12:50,563 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPCHPESBLY1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPCHPESBLY1
+2026-11-15 16:12:50,609 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/pgdip-mental-health-research | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/pgdip-mental-health-research
+2026-11-15 16:12:50,643 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMENVSGCC1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMENVSGCC1
+2026-11-15 16:12:50,683 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMPSYSNMH1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMPSYSNMH1
+2026-11-15 16:12:50,732 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMUSSMPS1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMUSSMPS1
+2026-11-15 16:12:50,770 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMSPPSSPP1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMSPPSSPP1
+2026-11-15 16:12:50,812 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMECOSSUF1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMECOSSUF1
+2026-11-15 16:12:50,861 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMLAWSICC1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMLAWSICC1
+2026-11-15 16:12:50,895 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-corporate-sustainability-environment | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-corporate-sustainability-environment
+2026-11-15 16:12:50,936 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-music-vocal-studies | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-music-vocal-studies
+2026-11-15 16:12:50,982 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMSUBSLIM1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMSUBSLIM1
+2026-11-15 16:12:51,026 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPDSAFSCRI1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPDSAFSCRI1
+2026-11-15 16:12:51,068 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMPHISARI1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMPHISARI1
+2026-11-15 16:12:51,123 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/llm-legal-practice | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/llm-legal-practice
+2026-11-15 16:12:51,167 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMBIOSBTE1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMBIOSBTE1
+2026-11-15 16:12:51,207 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMSMESTEC1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMSMESTEC1
+2026-11-15 16:12:51,247 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-ai-technology-enhanced-learning | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-ai-technology-enhanced-learning
+2026-11-15 16:12:51,288 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSROM1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSROM1
+2026-11-15 16:12:51,322 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPCLINSITA1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPCLINSITA1
+2026-11-15 16:12:51,372 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-history-of-art | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-history-of-art
+2026-11-15 16:12:51,407 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMCOSSEVM1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMCOSSEVM1
+2026-11-15 16:12:51,437 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMATSSCF1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMATSSCF1
+2026-11-15 16:12:51,466 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMAINSAIN1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMAINSAIN1
+2026-11-15 16:12:51,504 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMLAWSLAW1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMLAWSLAW1
+2026-11-15 16:12:51,538 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-psychology-mental-health | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-psychology-mental-health
+2026-11-15 16:12:51,589 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPDLINSITA1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPDLINSITA1
+2026-11-15 16:12:51,631 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/pgce-chemistry | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/pgce-chemistry
+2026-11-15 16:12:51,683 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMFTVSDRC1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMFTVSDRC1
+2026-11-15 16:12:51,725 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-biomedical-engineering | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-biomedical-engineering
+2026-11-15 16:12:51,768 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-applied-linguistics-language-teaching | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-applied-linguistics-language-teaching
+2026-11-15 16:12:51,800 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMFTVSEDT1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMFTVSEDT1
+2026-11-15 16:12:51,843 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMSRESCSS1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMSRESCSS1
+2026-11-15 16:12:51,878 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMCDSSCDS1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMCDSSCDS1
+2026-11-15 16:12:51,910 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMENVSEEM1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMENVSEEM1
+2026-11-15 16:12:51,949 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMSPSSGPH1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMSPSSGPH1
+2026-11-15 16:12:53,401 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMHTHSHAN1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMHTHSHAN1
+2026-11-15 16:12:53,441 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-creative-writing | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-creative-writing
+2026-11-15 16:12:53,475 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMINTSHUM1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMINTSHUM1
+2026-11-15 16:12:53,505 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-medieval-history | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-medieval-history
+2026-11-15 16:12:53,535 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMUSSHPP1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMUSSHPP1
+2026-11-15 16:12:53,586 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMPHYSBEN1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMPHYSBEN1
+2026-11-15 16:12:53,618 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMUSSIVT1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMUSSIVT1
+2026-11-15 16:12:53,649 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMATSMFI1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMATSMFI1
+2026-11-15 16:12:53,686 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMWGSSWGS1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMWGSSWGS1
+2026-11-15 16:12:53,717 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMCYBSSEC1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMCYBSSEC1
+2026-11-15 16:12:53,751 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/llm-legal-political-theory | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/llm-legal-political-theory
+2026-11-15 16:12:53,793 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMPASPOL1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMPASPOL1
+2026-11-15 16:12:53,824 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMTFTSDMC1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMTFTSDMC1
+2026-11-15 16:12:53,873 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMDSSSDSS1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMDSSSDSS1
+2026-11-15 16:12:53,905 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMUSSGTL1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMUSSGTL1
+2026-11-15 16:12:53,955 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-music-education-performance | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-music-education-performance
+2026-11-15 16:12:53,988 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/mpp-education-policy | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/mpp-education-policy
+2026-11-15 16:12:54,033 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-public-administration-policy | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-public-administration-policy
+2026-11-15 16:12:54,086 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMBIISBIE1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMBIISBIE1
+2026-11-15 16:12:54,118 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMECOSPUB1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMECOSPUB1
+2026-11-15 16:12:54,150 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-sustainable-finance | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-sustainable-finance
+2026-11-15 16:12:54,180 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMSOCSGCS1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMSOCSGCS1
+2026-11-15 16:12:54,211 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMSPYSLMA1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMSPYSLMA1
+2026-11-15 16:12:54,253 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSHIS1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSHIS1
+2026-11-15 16:12:54,292 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-film-literature | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-film-literature
+2026-11-15 16:12:54,336 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMPHISPLP1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMPHISPLP1
+2026-11-15 16:12:56,041 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-bio-sciences-bioenterprise | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-bio-sciences-bioenterprise
+2026-11-15 16:12:56,070 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-social-research | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-social-research
+2026-11-15 16:12:56,106 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-economics-finance | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-economics-finance
+2026-11-15 16:12:56,136 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMENGSCWR1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMENGSCWR1
+2026-11-15 16:12:56,167 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-music-production | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-music-production
+2026-11-15 16:12:57,822 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-early-modern-history | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-early-modern-history
+2026-11-15 16:12:57,873 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMENVSESM1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMENVSESM1
+2026-11-15 16:12:57,905 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPDLANSFSS1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPDLANSFSS1
+2026-11-15 16:12:57,938 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMPHISPHI1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMPHISPHI1
+2026-11-15 16:12:57,970 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPCLINSTAT1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPCLINSTAT1
+2026-11-15 16:12:58,002 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMINTSPOE1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMINTSPOE1
+2026-11-15 16:12:58,054 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPCHSCSHCC1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPCHSCSHCC1
+2026-11-15 16:12:58,092 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMUSSMCO1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMUSSMCO1
+2026-11-15 16:12:58,145 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMHISSIPO1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMHISSIPO1
+2026-11-15 16:12:58,187 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-global-culture-society | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-global-culture-society
+2026-11-15 16:12:58,234 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMENGSMCL1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMENGSMCL1
+2026-11-15 16:12:58,266 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMWOMSWVC1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMWOMSWVC1
+2026-11-15 16:12:58,307 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/llm-international-corporate-commercial-law | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/llm-international-corporate-commercial-law
+2026-11-15 16:12:58,353 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/pgce-modern-languages-spanish | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/pgce-modern-languages-spanish
+2026-11-15 16:12:58,385 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMUSSMPM1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMUSSMPM1
+2026-11-15 16:12:58,421 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSMEA1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSMEA1
+2026-11-15 16:12:58,452 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSFUY1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSFUY1
+2026-11-15 16:12:58,492 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMANSPPM1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMANSPPM1
+2026-11-15 16:12:58,540 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-social-media-and-management | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-social-media-and-management
+2026-11-15 16:12:58,572 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-audio-music-technology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-audio-music-technology
+2026-11-15 16:12:58,612 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSEHH1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSEHH1
+2026-11-15 16:13:00,415 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMTFTSDSM1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMTFTSDSM1
+2026-11-15 16:13:00,456 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-historical-archaeology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-historical-archaeology
+2026-11-15 16:13:00,488 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSMCU1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSMCU1
+2026-11-15 16:13:05,217 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/pgce-english | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/pgce-english/
+2026-11-15 16:13:05,248 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMANSMGT1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMANSMGT1
+2026-11-15 16:13:05,281 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-modern-history | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-modern-history
+2026-11-15 16:13:05,314 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMLINSAPL1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMLINSAPL1
+2026-11-15 16:13:05,366 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMEDUSLAM1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMEDUSLAM1
+2026-11-15 16:13:05,407 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses-january/msc-nursing-mental-health | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses-january/msc-nursing-mental-health
+2026-11-15 16:13:05,439 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMPASPSP2 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMPASPSP2
+2026-11-15 16:13:05,483 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSIAC1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSIAC1
+2026-11-15 16:13:05,514 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-cinematography-film-television | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-cinematography-film-television
+2026-11-15 16:13:05,561 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-sustainability-studies | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-sustainability-studies
+2026-11-15 16:13:05,594 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-medieval-studies | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-medieval-studies
+2026-11-15 16:13:05,630 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-sound-film-television-production | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-sound-film-television-production
+2026-11-15 16:13:05,663 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMECOSECO1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMECOSECO1
+2026-11-15 16:13:05,707 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/pgcert-safety-critical-systems-engineering | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/pgcert-safety-critical-systems-engineering
+2026-11-15 16:13:05,747 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMUSSSVE1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMUSSSVE1
+2026-11-15 16:13:05,785 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-biotechnology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-biotechnology
+2026-11-15 16:13:05,818 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMHOASSGC2 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMHOASSGC2
+2026-11-15 16:13:06,031 | WARNING | Request failed: https://york.ac.uk/study/postgraduate-taught/courses/ma-queer-studies | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-queer-studies
+2026-11-15 16:13:06,073 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/pgce-biology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/pgce-biology
+2026-11-15 16:13:06,123 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMPHISAEG1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMPHISAEG1
+2026-11-15 16:13:06,157 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMANSFAI1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMANSFAI1
+2026-11-15 16:13:06,202 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMATSFIO1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMATSFIO1
+2026-11-15 16:13:06,246 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-green-chemistry-sustainable-industrial-tech | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-green-chemistry-sustainable-industrial-tech
+2026-11-15 16:13:06,279 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-international-strategic-management | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-international-strategic-management
+2026-11-15 16:13:06,310 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMGCHSSIT1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMGCHSSIT1
+2026-11-15 16:13:06,345 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-international-relations | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-international-relations
+2026-11-15 16:13:06,400 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-english-literary-studies | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-english-literary-studies
+2026-11-15 16:13:06,446 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/pgdip-health-sciences | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/pgdip-health-sciences
+2026-11-15 16:13:06,479 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMELESIRO1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMELESIRO1
+2026-11-15 16:13:06,511 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-linguistics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-linguistics
+2026-11-15 16:13:06,544 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMDSSSSTA1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMDSSSSTA1
+2026-11-15 16:13:08,686 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/llm-international-human-rights-law-practice | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/llm-international-human-rights-law-practice/
+2026-11-15 16:13:08,720 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMPOLSIRC1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMPOLSIRC1
+2026-11-15 16:13:08,765 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-sustainable-business | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-sustainable-business
+2026-11-15 16:13:08,957 | WARNING | Request failed: https://www.york.ac.uk/english/postgraduate/taught-ma/modern | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-modern-contemporary-literature-culture/
+2026-11-15 16:13:08,988 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMFTVSSNS1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMFTVSSNS1
+2026-11-15 16:13:10,237 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMDSSSPSY1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMDSSSPSY1
+2026-11-15 16:13:10,288 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/pgce-history | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/pgce-history
+2026-11-15 16:13:10,322 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/mpa-public-administration-placement | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/mpa-public-administration-placement
+2026-11-15 16:13:10,358 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMTFTSAIC1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMTFTSAIC1
+2026-11-15 16:13:10,398 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-music-piano-studies | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-music-piano-studies
+2026-11-15 16:13:10,436 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-health-economics-professionals-policymakers | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-health-economics-professionals-policymakers
+2026-11-15 16:13:12,621 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/pgce-modern-languages-italian | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/pgce-modern-languages-italian/
+2026-11-15 16:13:12,661 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/pgcert-translation-applied-tech | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/pgcert-translation-applied-tech
+2026-11-15 16:13:12,696 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMENGSLCC1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMENGSLCC1
+2026-11-15 16:13:12,727 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSSSS1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSSSS1
+2026-11-15 16:13:12,760 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMENGSVLC1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMENGSVLC1
+2026-11-15 16:13:14,463 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPDHPESBLY1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPDHPESBLY1
+2026-11-15 16:13:14,504 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPDHSCSHCD1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPDHSCSHCD1
+2026-11-15 16:13:14,535 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMFINSECO1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMFINSECO1
+2026-11-15 16:13:14,569 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMENGSREN1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMENGSREN1
+2026-11-15 16:13:17,453 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-conservation-studies-historic-buildings | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-conservation-historic-buildings/
+2026-11-15 16:13:17,488 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSCHB1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSCHB1
+2026-11-15 16:13:17,520 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMLANSFSS1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMLANSFSS1
+2026-11-15 16:13:17,559 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPCHSCSHRS1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPCHSCSHRS1
+2026-11-15 16:13:17,594 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMLAWSLPT1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMLAWSLPT1
+2026-11-15 16:13:17,630 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-logistics-supply-chain-management | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-logistics-supply-chain-management
+2026-11-15 16:13:17,662 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-directing-film-television-production | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-directing-film-television-production
+2026-11-15 16:13:17,850 | WARNING | Request failed: http://york.ac.uk/study/postgraduate-taught/courses/msc-intelligent-robotics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-intelligent-robotics
+2026-11-15 16:13:17,892 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-applied-linguistics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-applied-linguistics
+2026-11-15 16:13:17,923 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/development-disorders-and-clinical-practice-msc | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/development-disorders-and-clinical-practice-msc
+2026-11-15 16:13:17,963 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSDAR1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSDAR1
+2026-11-15 16:13:17,994 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-music-solo-voice-ensemble-singing | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-music-solo-voice-ensemble-singing
+2026-11-15 16:13:18,054 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-public-history | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-public-history
+2026-11-15 16:13:18,086 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMPSYSCGN1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMPSYSCGN1
+2026-11-15 16:13:18,136 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-global-climate-challenges | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-global-climate-challenges
+2026-11-15 16:13:18,181 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMHSCSHRE1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMHSCSHRE1
+2026-11-15 16:13:18,213 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMELESELE1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMELESELE1
+2026-11-15 16:13:18,243 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMENGSELS1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMENGSELS1
+2026-11-15 16:13:18,280 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/pgce-physics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/pgce-physics
+2026-11-15 16:13:18,317 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMFINSFIN1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMFINSFIN1
+2026-11-15 16:13:18,364 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/llm-law | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/llm-law
+2026-11-15 16:13:18,405 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSSSA1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSSSA1
+2026-11-15 16:13:20,633 | WARNING | Request failed: http://york.ac.uk/study/postgraduate-taught/courses/ma-visual-effects-film-television | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-visual-effects-film-television/
+2026-11-15 16:13:20,671 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMANSEAI1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMANSEAI1
+2026-11-15 16:13:20,709 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-developmental-cognitive-neuroscience | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-developmental-cognitive-neuroscience
+2026-11-15 16:13:20,740 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMENGSMLL1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMENGSMLL1
+2026-11-15 16:13:20,789 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPCSAFSCRI1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPCSAFSCRI1
+2026-11-15 16:13:20,832 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-political-legal-philosophy | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-political-legal-philosophy
+2026-11-15 16:13:20,877 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-zooarchaeology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-zooarchaeology
+2026-11-15 16:13:20,910 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMAINSLLM1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMAINSLLM1
+2026-11-15 16:13:20,962 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/pgce-mathematics | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/pgce-mathematics
+2026-11-15 16:13:20,995 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMLAWSIHR1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMLAWSIHR1
+2026-11-15 16:13:24,368 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-advanced-computer-science | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-advanced-computer-science
+2026-11-15 16:13:24,401 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-theatre-making | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-theatre-making
+2026-11-15 16:13:24,436 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMANSLSC1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMANSLSC1
+2026-11-15 16:13:24,466 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMECNSECO1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMECNSECO1
+2026-11-15 16:13:24,524 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/pgce-modern-languages-mandarin | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/pgce-modern-languages-mandarin
+2026-11-15 16:13:24,568 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-philosophy-artificial-intelligence | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-philosophy-artificial-intelligence
+2026-11-15 16:13:24,602 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMSMESMAN1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMSMESMAN1
+2026-11-15 16:13:24,632 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/llm-law-juris-doctor | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/llm-law-juris-doctor
+2026-11-15 16:13:24,668 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMHUMSRMT1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMHUMSRMT1
+2026-11-15 16:13:24,700 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPCHPESSIM1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPCHPESSIM1
+2026-11-15 16:13:24,731 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-international-business-strategic-management | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-international-business-strategic-management
+2026-11-15 16:13:24,763 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-womens-gender-studies | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-womens-gender-studies
+2026-11-15 16:13:24,809 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-social-public-policy | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-social-public-policy
+2026-11-15 16:13:26,593 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-philosophy | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-philosophy/
+2026-11-15 16:13:26,636 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMUSSMEP1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMUSSMEP1
+2026-11-15 16:13:26,674 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMGPPSINB1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMGPPSINB1
+2026-11-15 16:13:26,707 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-iron-age-celtic-archaeology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-iron-age-celtic-archaeology
+2026-11-15 16:13:28,513 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-psychology-education-conversion-programme | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-psychology-education-conversion-programme/
+2026-11-15 16:13:28,543 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSFUN1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSFUN1
+2026-11-15 16:13:28,574 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPDHECSHPP1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPDHECSHPP1
+2026-11-15 16:13:28,611 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-interpreting-translation-applied-tech | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-interpreting-translation-applied-tech
+2026-11-15 16:13:28,655 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMEDUSEDU1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMEDUSEDU1
+2026-11-15 16:13:28,686 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMLINSLNG1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMLINSLNG1
+2026-11-15 16:13:28,734 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-data-science-computational | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-data-science-computational
+2026-11-15 16:13:28,774 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-music-performance-practice | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-music-performance-practice
+2026-11-15 16:13:28,815 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPDENVSGCC1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPDENVSGCC1
+2026-11-15 16:13:28,848 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMPASITD1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMPASITD1
+2026-11-15 16:13:28,878 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/mpa-public-administration | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/mpa-public-administration
+2026-11-15 16:13:28,928 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-environmental-economics-management | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/msc-environmental-economics-management
+2026-11-15 16:13:29,298 | WARNING | Request failed: https://york.ac.uk/study/postgraduate-taught/courses/ma-renaissance-and-early-modern-studies | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-renaissance-and-early-modern-studies/
+2026-11-15 16:13:29,329 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-medieval-archaeology | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/ma-medieval-archaeology
+2026-11-15 16:13:29,368 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMLINSTAT1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMLINSTAT1
+2026-11-15 16:13:29,408 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSCHM1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSCHM1
+2026-11-15 16:13:29,440 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMANSBAN1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMMANSBAN1
+2026-11-15 16:13:29,472 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMLINSITA1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMLINSITA1
+2026-11-15 16:13:31,663 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate-taught/courses/pgdip-interpreting-translation-applied-tech | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate-taught/courses/pgdip-interpreting-translation-applied-tech/
+2026-11-15 16:13:31,696 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMELESAMT1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMELESAMT1
+2026-11-15 16:13:31,725 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMHEASECO1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMHEASECO1
+2026-11-15 16:13:31,782 | WARNING | Request failed: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSZOO1 | 429 Client Error: Too Many Requests for url: https://www.york.ac.uk/study/postgraduate/courses/apply?course=DPMARCSZOO1
+2026-11-15 16:14:43,208 | INFO | AFC is enabled with max remote calls: 10.
+2026-11-15 16:14:43,479 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-11-15 16:14:43,480 | ERROR | University failed: University of York
+Traceback (most recent call last):
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 1036, in run_tracker
+    analysis = analyze_change(
+               ^^^^^^^^^^^^^^^
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 859, in analyze_change
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/models.py", line 6052, in generate_content
+    response = self._generate_content_with_continuation(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/models.py", line 5893, in _generate_content_with_continuation
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/models.py", line 4441, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 2179, in request
+    response = self._request(http_request, http_options, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1955, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 371, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1932, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/errors.py", line 187, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/errors.py", line 216, in raise_error
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}
+2026-11-15 16:20:34,074 | WARNING | Request failed: https://www.exeter.ac.uk/departments/digital/news | 404 Client Error: Not Found for url: https://www.exeter.ac.uk/departments/digital/news
+2026-11-15 16:21:39,747 | INFO | AFC is enabled with max remote calls: 10.
+2026-11-15 16:21:39,955 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-11-15 16:21:39,956 | ERROR | University failed: University of Exeter
+Traceback (most recent call last):
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 1036, in run_tracker
+    analysis = analyze_change(
+               ^^^^^^^^^^^^^^^
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 859, in analyze_change
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/models.py", line 6052, in generate_content
+    response = self._generate_content_with_continuation(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/models.py", line 5893, in _generate_content_with_continuation
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/models.py", line 4441, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 2179, in request
+    response = self._request(http_request, http_options, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1955, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 371, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1932, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/errors.py", line 187, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/errors.py", line 216, in raise_error
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}
+2026-11-15 16:21:40,954 | WARNING | Request failed: https://warwick.ac.uk/study/international/country/india | 404 Client Error:  for url: https://warwick.ac.uk/study/international/country/india/
+2026-11-15 16:23:04,611 | WARNING | Request failed: https://moodle.ucl.ac.uk/ | 403 Client Error: Forbidden for url: https://moodle.ucl.ac.uk/
+2026-11-15 16:27:08,519 | WARNING | Request failed: https://evision.ucl.ac.uk/urd/sits.urd/run/siw_lgn | HTTPSConnectionPool(host='evision.ucl.ac.uk', port=443): Max retries exceeded with url: /urd/sits.urd/run/siw_lgn (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')))
+2026-11-15 16:28:09,282 | WARNING | Request failed: http://www.ucl.ac.uk/estates/customer-helpdesk | HTTPConnectionPool(host='www.ucl.ac.uk', port=80): Read timed out. (read timeout=30)
+2026-11-15 16:28:40,983 | WARNING | Request failed: http://www.ucl.ac.uk/isd | HTTPConnectionPool(host='www.ucl.ac.uk', port=80): Read timed out. (read timeout=30)
+2026-11-15 16:29:15,531 | WARNING | Request failed: http://www.ucl.ac.uk/isd/services/websites-apps-databases | HTTPConnectionPool(host='www.ucl.ac.uk', port=80): Read timed out. (read timeout=30)
+2026-11-15 16:29:45,860 | WARNING | Request failed: http://www.ucl.ac.uk/estates/our-services/room-bookings | HTTPConnectionPool(host='www.ucl.ac.uk', port=80): Read timed out. (read timeout=30)
+2026-11-15 16:30:15,888 | WARNING | Request failed: http://www.ucl.ac.uk/library | HTTPConnectionPool(host='www.ucl.ac.uk', port=80): Read timed out. (read timeout=30)
+2026-11-15 16:31:31,669 | WARNING | Request failed: https://www.ucl.ac.uk/students/support-and-wellbeing/specialist-information-and-support/student-parents | 404 Client Error: Not Found for url: https://www.ucl.ac.uk/study/current-students/support-and-wellbeing/specialist-information-and-support/student-parents
+2026-11-15 16:31:34,371 | WARNING | Request failed: https://www.ucl.ac.uk/prospective-students/undergraduate/courses | 404 Client Error: Not Found for url: https://www.ucl.ac.uk/prospective-students/undergraduate/courses
+2026-11-15 16:32:05,543 | WARNING | Request failed: http://ssw-comms@ucl.ac.uk | HTTPConnectionPool(host='www.ucl.ac.uk', port=80): Read timed out. (read timeout=30)
+2026-11-15 16:32:39,545 | WARNING | Request failed: https://www.ucl.ac.uk/computer-science/ucl-computer-science | 404 Client Error: Not Found for url: https://www.ucl.ac.uk/engineering/computer-science/ucl-computer-science
+2026-11-15 16:32:49,493 | WARNING | Request failed: https://www.ucl.ac.uk/news/2023/jul/node/230403 | 404 Client Error: Not Found for url: https://www.ucl.ac.uk/news/2023/jul/node/230403
+2026-11-15 16:33:55,913 | INFO | AFC is enabled with max remote calls: 10.
+2026-11-15 16:33:56,114 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-11-15 16:33:56,115 | ERROR | University failed: UCL
+Traceback (most recent call last):
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 1036, in run_tracker
+    analysis = analyze_change(
+               ^^^^^^^^^^^^^^^
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 859, in analyze_change
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/models.py", line 6052, in generate_content
+    response = self._generate_content_with_continuation(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/models.py", line 5893, in _generate_content_with_continuation
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/models.py", line 4441, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 2179, in request
+    response = self._request(http_request, http_options, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1955, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 371, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1932, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/errors.py", line 187, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/errors.py", line 216, in raise_error
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}
+2026-11-15 16:33:56,363 | WARNING | Request failed: https://isc.um.edu.my/ | HTTPSConnectionPool(host='isc.um.edu.my', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='isc.um.edu.my', port=443): Failed to resolve 'isc.um.edu.my' ([Errno -2] Name or service not known)"))
+2026-11-15 16:34:32,066 | WARNING | Request failed: https://www.fu-berlin.de/sites/internationalweek/partneruniversitaeten/index.html | 404 Client Error: Not Found for url: https://www.fu-berlin.de/sites/internationalweek/partneruniversitaeten/index.html
+2026-11-15 16:34:35,325 | WARNING | Request failed: https://www.fu-berlin.de/en/sites/internationalweek/partneruniversitaeten | 404 Client Error: Not Found for url: https://www.fu-berlin.de/en/sites/internationalweek/partneruniversitaeten
+2026-11-15 16:35:33,039 | WARNING | Request failed: http://www.fu-berlin.de/vv/en | 503 Server Error: Service Unavailable for url: https://www.fu-berlin.de/vv/en/fb
+2026-11-15 16:35:46,110 | WARNING | Request failed: https://www.fu-berlin.de/en/studium/bewerbung/Bewerberinfo.html | 404 Client Error: Not Found for url: https://www.fu-berlin.de/en/studium/bewerbung/Bewerberinfo.html
+2026-11-15 16:35:46,316 | WARNING | Request failed: http://www.international.fu-berlin.de/ | HTTPConnectionPool(host='www.international.fu-berlin.de', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='www.international.fu-berlin.de', port=80): Failed to resolve 'www.international.fu-berlin.de' ([Errno -2] Name or service not known)"))
+2026-11-15 16:39:04,755 | WARNING | Request failed: https://wikis.fu-berlin.de/spaces/kum/pages/1282837049/Service-Wiki+der+Stabsstelle+Kommunikation+und+Marketing | HTTPSConnectionPool(host='wikis.fu-berlin.de', port=443): Max retries exceeded with url: /spaces/kum/pages/1282837049/Service-Wiki+der+Stabsstelle+Kommunikation+und+Marketing (Caused by ConnectTimeoutError(<HTTPSConnection(host='wikis.fu-berlin.de', port=443) at 0x79d9b8483950>, 'Connection to wikis.fu-berlin.de timed out. (connect timeout=30)'))
+2026-11-15 16:40:18,003 | WARNING | Request failed: https://www.fu-berlin.de/service/zuvdocs/weitere-fu/index.html | 403 Client Error: Forbidden for url: https://www.fu-berlin.de/service/zuvdocs/weitere-fu/index.html
+2026-11-15 16:40:28,568 | WARNING | Request failed: https://www.fu-berlin.de/en/sites/abt-1/formulare/index.html | 403 Client Error: Forbidden for url: https://www.fu-berlin.de/en/sites/abt-1/formulare/index.html
+2026-11-15 16:41:03,839 | WARNING | Request failed: https://wikis.fu-berlin.de/spaces/kum/overview | HTTPSConnectionPool(host='wikis.fu-berlin.de', port=443): Max retries exceeded with url: /spaces/kum/overview (Caused by ConnectTimeoutError(<HTTPSConnection(host='wikis.fu-berlin.de', port=443) at 0x79d9b953b010>, 'Connection to wikis.fu-berlin.de timed out. (connect timeout=30)'))
+2026-11-15 16:41:12,793 | WARNING | Request failed: https://www.fu-berlin.de/service/zuvdocs/fu-rundschreiben/index.html | 403 Client Error: Forbidden for url: https://www.fu-berlin.de/service/zuvdocs/fu-rundschreiben/index.html
+2026-11-15 16:42:29,825 | WARNING | Request failed: https://wikis.fu-berlin.de/display/studying/Studying+101+-+A+Simple+Guide+for+Students | HTTPSConnectionPool(host='wikis.fu-berlin.de', port=443): Max retries exceeded with url: /display/studying/Studying+101+-+A+Simple+Guide+for+Students (Caused by ConnectTimeoutError(<HTTPSConnection(host='wikis.fu-berlin.de', port=443) at 0x79d9b898ca50>, 'Connection to wikis.fu-berlin.de timed out. (connect timeout=30)'))
+2026-11-15 16:45:39,149 | WARNING | Request failed: http://www.cedis.fu-berlin.de | ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-11-15 16:46:22,859 | WARNING | Request failed: http://wikis.fu-berlin.de/ | HTTPConnectionPool(host='wikis.fu-berlin.de', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPConnection(host='wikis.fu-berlin.de', port=80) at 0x79d9b927e0d0>, 'Connection to wikis.fu-berlin.de timed out. (connect timeout=30)'))
+2026-11-15 16:47:45,548 | WARNING | Request failed: https://www.fu-berlin.de/en/sites/kommunikation/referate/presse/index.html | 404 Client Error: Not Found for url: https://www.fu-berlin.de/en/sites/kommunikation/referate/presse/index.html
+2026-11-15 16:48:20,470 | WARNING | Request failed: https://wikis.fu-berlin.de/display/studying | HTTPSConnectionPool(host='wikis.fu-berlin.de', port=443): Max retries exceeded with url: /display/studying (Caused by ConnectTimeoutError(<HTTPSConnection(host='wikis.fu-berlin.de', port=443) at 0x79d9b912b910>, 'Connection to wikis.fu-berlin.de timed out. (connect timeout=30)'))
+2026-11-15 16:51:08,910 | WARNING | Request failed: http://www.fu-berlin.de/presse/publikationen/_media/kurzportraet.pdf | 404 Client Error: Not Found for url: https://www.fu-berlin.de/presse/publikationen/_media/kurzportraet.pdf
+2026-11-15 16:51:09,093 | WARNING | Request failed: https://www.fu-berlin.de/studium/bewerbung/Bewerberinfo.html | 404 Client Error: Not Found for url: https://www.fu-berlin.de/studium/bewerbung/Bewerberinfo.html
+2026-11-15 16:52:17,131 | INFO | AFC is enabled with max remote calls: 10.
+2026-11-15 16:52:17,330 | INFO | HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-11-15 16:52:17,331 | ERROR | University failed: Freie Universität Berlin
+Traceback (most recent call last):
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 1036, in run_tracker
+    analysis = analyze_change(
+               ^^^^^^^^^^^^^^^
+  File "/home/runner/work/university-tracker/university-tracker/tracker.py", line 859, in analyze_change
+    response = client.models.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/models.py", line 6052, in generate_content
+    response = self._generate_content_with_continuation(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/models.py", line 5893, in _generate_content_with_continuation
+    response = self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/models.py", line 4441, in _generate_content
+    response = self._api_client.request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 2179, in request
+    response = self._request(http_request, http_options, stream=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1955, in _request
+    return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 470, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 371, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/tenacity/__init__.py", line 473, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/_api_client.py", line 1932, in _request_once
+    errors.APIError.raise_for_response(response)
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/errors.py", line 187, in raise_for_response
+    cls.raise_error(response.status_code, response_json, response)
+  File "/opt/hostedtoolcache/Python/3.11.18/x64/lib/python3.11/site-packages/google/genai/errors.py", line 216, in raise_error
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}
+2026-11-15 16:52:18,855 | WARNING | Request failed: https://www.lmu.de/en/study/all-degrees-and-programs/international-full-time-students | 404 Client Error: Not Found for url: https://www.lmu.de/en/study/all-degrees-and-programs/international-full-time-students
+2026-11-15 16:52:20,324 | WARNING | Request failed: https://www.tu.berlin/en/studying/international-students | 404 Client Error: Not Found for url: https://www.tu.berlin/en/studying/international-students
